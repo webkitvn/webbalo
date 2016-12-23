@@ -1,0 +1,497 @@
+body{
+	background: #ffffff;
+	-webkit-font-smoothing: antialiased;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+header{
+	background: #232222;
+	padding: 15px 0;
+	width: 100%;
+	z-index: 800;
+	transition: all .3s ease;
+}
+.fixed-menu{
+	position: fixed;
+}
+header .top-menu .menu{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+header .top-menu .menu li{
+	display: inline;
+	margin-right: 30px;
+	color: #FFF;
+}
+header .top-menu .menu li a{
+	color: #FFF;
+	text-transform: uppercase;
+	font-family: "Cafeta";
+	font-size: 1.3em;
+	display: inline-block;
+}
+header .logo{
+	text-align: center;
+}
+header .logo img{
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+header .menu-striger{
+	float: right;
+}
+header .menu-striger .striger-btn{
+	color: #FFF;
+}
+#brand-carou{
+	padding: 0 20px 0 20px;
+	overflow: hidden;
+	position: relative;
+}
+#brand-carou .item{
+	padding: 0px;
+	position: relative;
+}
+#brand-carou .item:focus{
+	outline: none !important;
+}
+#brand-carou .item > a > img{
+	width: 100%;
+	height: auto;
+}
+#brand-carou .slick-prev, #brand-carou .slick-next {
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 30px;
+    height: calc(100% - 40px);
+    margin: 20px 0;
+    padding: 0;
+    cursor: pointer;
+    color: #111;
+    border: none;
+    background: #e8e8e8;
+    z-index: 500;
+    font-size: 2em;
+}
+#brand-carou .slick-next {
+    right: 0px;
+}
+#brand-carou .slick-prev {
+    left: 0px;
+}
+footer{
+	background: #f1f2f2;
+	padding: 20px 0 50px;
+}
+footer .footer-col-content{
+	padding-top: 50px;
+}
+.footer-address, .footer-phone{
+	font-weight: bold;
+	font-size: 1.3em;
+}
+.footer-email p{
+	margin-bottom: 0px;
+}
+.footer-email a{
+	color: #111;
+	font-size: 1.3em;
+}
+.backtotop{
+	padding: 10px;
+	color: #333;
+	cursor: pointer;
+	font-family: "Cafeta";
+	font-size: 1.5em;
+	background: #e6e7e8;
+	display: block;
+}
+.backtotop:hover{
+	text-decoration: none;
+	color: #333;
+}
+.backtotop .icon{
+	display: inline-block;
+	width: 23px;
+	height: 23px;
+	text-align: center;
+	line-height: 15px;
+	border-radius: 100%;
+	border: 2px solid #333;
+	color: #333;
+	margin-right: 10px;
+	font-size: 13px;
+}
+.footer-logo{
+	padding: 20px 0;
+}
+.footer-copyright{
+	background: #111;
+	color: #f7f7f7;
+	font-family: "Cafeta", sans-serif;
+	font-size: 1.2em;
+	padding: 20px 0 10px;
+}
+.page-content{
+	padding-bottom: 50px;
+}
+.cart-process{
+	display: flex;
+	flex-wrap: nowrap;
+	font-family: "Cafeta";
+	font-size: 2em;
+	color: #cecece;
+}
+.cart-process div{
+	width: 100%;
+	text-align: center;
+	border: 2px solid #cecece;
+	margin: 15px;
+	padding: 10px;
+}
+.cart-process div i{
+	margin-right: 10px;
+}
+.cart-process div.active{
+	color: #111;
+	border-color: #111;
+}
+.woocommerce-cart .shop_table{
+	border: 1px solid #DDD;
+}
+.woocommerce-cart .shop_table thead{
+	background: #111;
+	color: #FFF;
+}
+.woocommerce-cart .shop_table img{
+	width: 100px;
+	height: auto;
+}
+.woocommerce-cart .shop_table .product-thumbnail{
+	text-align: center;
+}
+.woocommerce-cart .shop_table td{
+	vertical-align: middle;
+	border: 1px solid #DDD;
+}
+.woocommerce-cart .shop_table .product-remove{
+	text-align: center;
+}
+.woocommerce-cart .shop_table .product-remove .remove{
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	background: #111;
+	color: #FFF;
+	font-weight: bold;
+	text-align: center;
+	line-height: 20px;
+	border-radius: 100%;
+	padding: 0 3px 2px;
+	transition: all .3s ease;
+}
+.woocommerce-cart .shop_table .product-remove .remove:hover{
+	text-decoration: none;
+	background: #e21313;
+}
+.woocommerce-cart .shop_table .product-name{
+	font-family: "Cafeta", sans-serif;
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+.woocommerce-cart .shop_table .product-name a{
+	color: #111;
+}
+.woocommerce-cart .shop_table .amount{
+	font-family: "Cafeta", sans-serif;
+	font-size: 1.5em;
+}
+.woocommerce-cart .shop_table .quantity{
+	text-align: center;
+}
+.woocommerce-cart .shop_table .quantity input{
+	width: 50px;
+	font-family: "Cafeta", sans-serif;
+	font-size: 1.5em;
+	padding: 0 5px;
+	border-color: transparent;
+}
+.woocommerce-cart .coupon{
+	float: left;
+}
+.woocommerce-cart .shop_table input[type=submit]{
+	float: right;
+	background: #111;
+	color: #FFF;
+	text-transform: uppercase;
+	font-family: "Cafeta", sans-serif;
+	border: 2px solid #111;
+	font-size: 2em;
+	padding: 0px 20px;
+	margin-left: 20px;
+	transition: all .3s ease;
+}
+.woocommerce-cart .shop_table .coupon input[type=submit]{
+	color: #111;
+	border-color: #111;
+	background: #FFF;
+}
+.woocommerce-cart .shop_table .coupon input[type=submit]:hover{
+	color: #FFF;
+	background: #111;
+}
+.woocommerce-cart .shop_table .coupon input[type=text]{
+	padding: 5px 10px;
+	font-family: "Cafeta", sans-serif;
+	font-size: 1.5em;
+}
+.woocommerce-cart .shop_table .coupon > label{
+	display: none;
+}
+.woocommerce-cart .woocommerce-message{
+	margin: 20px;
+	color: green;
+	font-family: "Cafeta", sans-serif;
+	font-size: 1.3em;
+	cursor: pointer;
+}
+p.cart-empty{
+	text-align: center;
+	font-family: "Cafeta", sans-serif;
+	font-size: 3em;
+}
+.return-to-shop{
+	text-align: center;
+}
+.return-to-shop a{
+	display: inline-block;
+	background: #111;
+	color: #FFF;
+	font-family: "Cafeta", sans-serif;
+	font-size: 2em;
+	padding: 5px 20px;
+}
+.cart_totals h2{
+	font-family: "Cafeta", sans-serif;
+	text-transform: uppercase;
+	margin-top: 0;
+	font-size: 3em;
+}
+.cart_totals table{
+	background: #333;
+	color: #FFF;
+}
+.cart_totals table td, .cart_totals table th{
+	vertical-align: middle !important;
+}
+.cart_totals .checkout-button{
+	display: inline-block;
+	border: 2px solid #de0b0b;
+	padding: 0 20px;
+	font-family: "Cafeta", sans-serif;
+	color: #de0b0b;
+	text-transform: uppercase;
+	font-size: 2em;
+	transition: all .3s ease;
+}
+.cart_totals .checkout-button:hover{
+	text-decoration: none;
+	color: #FFF;
+	background: #de0b0b;
+}
+.checkout_coupon input[type=text]{
+	padding: 5px 10px;
+	font-family: "Cafeta", sans-serif;
+	font-size: 1.5em;
+}
+.checkout_coupon input[type=submit]{
+	display: inline-block;
+	background: #111;
+	border: 0;
+	color: #FFF;
+	font-family: "Cafeta", sans-serif;
+	font-size: 1.5em;
+	padding: 7px 20px;
+}
+.checkout h3{
+	font-family: "Cafeta", sans-serif;
+	font-size: 2em;
+	text-transform: uppercase;
+	border-bottom: 2px solid #111;
+	margin-bottom: 20px;
+}
+.checkout label{
+	display: block;
+}
+.checkout .create-account input{
+	float: left;
+	margin-right: 10px;
+}
+.checkout input[type=text], .checkout input[type=email], .checkout input[type=tel], .checkout textarea{
+	width: 100%;
+	border: 1px solid #DDD;
+	padding: 7px 10px;
+}
+.order-review table thead{
+	background: #111;
+	color: #FFF;
+}
+.order-review table{
+	border: 1px solid #111;
+}
+.order-review table td, .order-review table th{
+	border: 1px solid #111;
+}
+.order-review .amount{
+	font-family: "Cafeta", sans-serif;
+	font-size: 1.5em;
+}
+.order-review table tfoot tr:last-child{
+	color: #de0b0b;
+}
+.order-review input[type=submit]{
+	border: none;
+	font-family: "Cafeta", sans-serif;
+	color: #FFF;
+	font-size: 2em;
+	text-transform: uppercase;
+	width: 100%;
+	background: #de0b0b;
+	padding: 5px;
+}
+.woocommerce-checkout .login{
+	width: 400px;
+	max-width: 100%;
+}
+.woocommerce-checkout .login .form-row label{
+	display: block;
+}
+.woocommerce-checkout .login .form-row input[type=text],.woocommerce-checkout .login .form-row input[type=password]{
+	width: 100%;
+	padding: 5px 10px;
+}
+.woocommerce-checkout input[type=submit]{
+	background: #de0b0b;
+	color: #FFF;
+	font-family: "Cafeta", sans-serif;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	border: 0;
+	padding: 5px 20px;
+	float: right;
+}
+.woocommerce-MyAccount-navigation{
+	margin-top: 50px;
+	border-top: 1px solid #DDD;
+	width: 25%;
+	float: left;
+}
+.woocommerce-MyAccount-navigation ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.woocommerce-MyAccount-navigation ul li a{
+	display: block;
+	border-bottom: 1px solid #DDD;
+	padding: 5px 10px;
+	font-family: "Cafeta", sans-serif;
+	color: #111;
+	font-size: 1.5em;
+	border-left: 1px solid #DDD;
+	border-right: 1px solid #DDD;
+}
+.woocommerce-MyAccount-navigation ul li.is-active a{
+	border-right: 0;
+}
+.woocommerce-MyAccount-content{
+	margin-top: 50px;
+	border: 1px solid #DDD;
+	width: 75%;
+	float: left;
+	border-left: 0;
+	padding: 20px;
+	height: 100%;
+	min-height: 300px;
+}
+.woocommerce-MyAccount-content h3{
+	font-family: "Cafeta", sans-serif;
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+.woocommerce-MyAccount-content label{
+	display: block;
+}
+.woocommerce-MyAccount-content form .form-row{
+	width: calc(100%/2-20px);
+	float: left;
+	margin-right: 20px;
+}
+.woocommerce-MyAccount-content form input[type=text], 
+.woocommerce-MyAccount-content form input[type=email],
+.woocommerce-MyAccount-content form input[type=tel]{
+	max-width: 100%;
+	width: 300px;
+	padding: 7px 10px;
+	border: 1px solid #DDD;
+}
+.country_select{
+	width: 300px !important;
+	max-width: 100% !important;
+}
+.woocommerce-MyAccount-content form input[type=submit]{
+	font-family: "Cafeta";
+	background: #FFF;
+	border: 2px solid #111;
+	padding: 5px 20px;
+	font-size: 2em;
+	text-transform: uppercase;
+	transition: all .3s ease;
+	clear: both;
+	float: none;
+}
+.woocommerce-MyAccount-content form input[type=submit]:hover{
+	background: #111;
+	color: #FFF;
+	text-decoration: none;
+}
+.promo{
+	font-family: "Cafeta", sans-serif;
+	font-size: 1.3em;
+	margin: 30px 0;
+}
+.promo span{
+	margin: 0 10px;
+	display: inline-block;
+}
+.promo span:after{
+	content: " ";
+	display: inline-block;
+	width: 2px;
+	height: 20px;
+	background: #111;
+	margin-left: 30px;
+}
+.promo span:last-child:after{
+	content: none;
+}
+.promo span.free-ship{
+	margin-left: 0;
+}
+.promo span.return{
+	text-transform: uppercase;
+}
+.promo span.payment{
+	margin-right: 0;
+}
+.modal-dialog {
+	max-width: 100%;
+	width: 500px;
+}
+.modal-content h2{
+	font-family: "Cafeta";
+	text-align: center;
+	font-size: 3em;
+}

@@ -1,0 +1,30 @@
+@media (max-width: 768px){
+    #header .top-menu{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #header .top-menu li{
+        display: inline-block !important;
+        margin: 0 10px;
+    }
+    #menu{
+        top: 137px !important;
+    }
+    .products .webbalo-product-item .webbalo-btn{
+        font-size: 1.4em !important;
+    }
+    .single-product .webbalo-btn{
+        width: 100%;
+        padding: 15px;
+        border: 3px solid #111;
+    }
+    .cart_totals .checkout-button{
+        width: 100%;
+        text-align: center;
+    }
+    .single-product .thumbnails.columns-3 a img{
+        width: 100% !important;
+        height: auto;
+        float: left;
+    }
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Cafeta';
+    src: url('../fonts/UTMCafeta.eot');
+    src: url('../fonts/UTMCafeta.eot') format('embedded-opentype'),
+         url('../fonts/UTMCafeta.woff2') format('woff2'),
+         url('../fonts/UTMCafeta.woff') format('woff'),
+         url('../fonts/UTMCafeta.ttf') format('truetype'),
+         url('../fonts/UTMCafeta.svg#UTMCafeta') format('svg');
+}

@@ -1,0 +1,137 @@
+/*
+Theme Name: Shoping
+Theme URI: https://wordpress.org/themes/twentyfifteen/
+Author: cuongpham
+Author URI: https://fb.com/cuongphamquoc
+Description: Wordpress theme for Shoping
+Version: 1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, blue, gray, pink, purple, white, yellow, dark, light, two-columns, left-sidebar, fixed-layout, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: shoping
+*/
+.clear{
+	clear: both;
+	float: none;
+}
+.big-title{
+	font-family: "Cafeta";
+	font-size: 2.2em;
+	text-transform: uppercase;
+}
+.page-title{
+	font-family: "Cafeta",sans-serif;
+	text-transform: uppercase;
+}
+#blocks .block-item{
+	position: relative;
+	margin-bottom: 30px;
+}
+#blocks .block-item img{
+	width: 100%;
+	height: auto;
+}
+#blocks .block-item h4{
+	color: #111;
+	position: absolute;
+	top:  20%;
+	left: 10%;
+	font-family: "Cafeta";
+	font-size: 2.2em;
+	text-transform: uppercase;
+}
+#blocks .block-item .block-btn{
+	font-family: "Cafeta";
+	background: transparent;
+	position: absolute;
+	top: 60%;
+	left: 10%;
+	color: #111;
+	font-size: 2em;
+	border: 2px solid #111;
+	padding: 0px 20px;
+	transition: all .3s ease-out;
+}
+#blocks .block-item .block-btn:hover{
+	color: #FFF;
+	border-color: #FFF;
+	text-decoration: none;
+}
+#menu{
+	position: fixed;
+	top: 60px;
+	bottom: 0;
+	right: -500px;
+	z-index: 9999;
+	background: rgba(255, 255, 255, 0.81);
+}
+#menu .menu{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: "Cafeta";
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+#menu .menu a{
+	color: #111;
+	transition: all .3s ease-out;
+}
+#menu .menu a:hover,#menu .menu a:visited,#menu .menu a:active,a:link{
+	text-decoration: none;
+}
+#menu .sub-menu{
+	display: none;
+}
+#menu .menu > li > a{
+	font-size: 1.3em;
+	padding: 10px 20px;
+	display: block;
+	border-bottom: 1px solid #111;
+}
+#menu .sub-menu{
+	list-style: square;
+}
+#menu .sub-menu li a{
+	font-size: 1.3em;
+	padding: 5px 0;
+	display: block;
+}
+#menu .promotion{
+	padding: 50px 20px;
+	font-family: "Cafeta";
+}
+#menu .promotion h5{
+	font-size: 1.4em;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
+#menu .promotion > span{
+	font-size: 1.2em;
+}
+#menu .promotion form > input[type=text]{
+	width: 100%;
+	margin-top: 20px;
+	padding: 10px;
+	border: 1px solid #444;
+	color: #111;
+	font-size: 1.2em;
+}
+.webbalo-btn{
+	font-family: "Cafeta", sans-serif;
+	color: #111;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 5px 10px;
+	border: 2px solid #111;
+	margin-top: 10px;
+	transition: all .3s ease;
+	background: transparent;
+	border-radius: 0;
+}
+.webbalo-btn:hover{
+	background: #111;
+	color: #FFF;
+	text-decoration: none;
+}
