@@ -183,7 +183,7 @@
 form.cart{
     overflow: hidden;
 }
-input[type=number].qty{
+.single-product input[type=number].qty{
     display: none;
 }
 .single-product .posted_in, .single-product .tagged_as{
