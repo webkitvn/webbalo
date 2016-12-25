@@ -8,28 +8,32 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-xs-12 col-md-4">
-					<div class="footer-col-content text-center">
+				<div class="col-xs-12 col-md-5">
+					<div class="logo">
+						<?php 
+							the_custom_logo();
+						?>
+					</div>
+					<div class="footer-col-content">
 						<span class="icon">
-							<i class="fa fa-home fa-3x" aria-hidden="true"></i>
+							<i class="fa fa-home" aria-hidden="true"></i>
 						</span>
 						<div class="footer-address">
-							17 Đinh Bộ Lĩnh, P24, Q. Bình Thạnh hoặc Hẻm 72 Bạch Đằng ( kế bên cổng sau bệnh viện Vì Dân)
+							<p>17 Đinh Bộ Lĩnh, P24, Q. Bình Thạnh hoặc Hẻm 72 Bạch Đằng </br> ( kế bên cổng sau bệnh viện Vì Dân)</p>
 						</div>
 					</div>
-				</div>
-				<div class="col-xs-12 col-md-4">
-					<div class="footer-col-content text-center">
+					<div class="footer-col-content">
 						<span class="icon">
-							<i class="fa fa-phone fa-3x" aria-hidden="true"></i>
+							<i class="fa fa-phone" aria-hidden="true"></i>
 						</span>
-						<div class="footer-phone">Sỉ: 0909 33 78 33 | Lẻ: 093 83 73 915</div>
+						<div class="footer-phone">
+							<p>Sỉ: 0909 33 78 33</p>
+							<p>Lẻ: 093 83 73 915</p>
+						</div>
 					</div>
-				</div>
-				<div class="col-xs-12 col-md-4">
-					<div class="footer-col-content text-center">
+					<div class="footer-col-content">
 						<span class="icon">
-							<i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
+							<i class="fa fa-envelope" aria-hidden="true"></i>
 						</span>
 						<div class="footer-email">
 							<p><a href="mailto:giaoduong282@gmail.com">giaoduong282@gmail.com</a></p>
@@ -37,17 +41,40 @@
 						</div>
 					</div>
 				</div>
+				<div class="col-xs-12 col-md-3">
+					<h3>Hỗ trợ khách hàng</h3>
+					<ul>
+						<li><a href="#">Hướng dẫn mua hàng</a></li>
+						<li><a href="#">Chính sách giao hàng</a></li>
+						<li><a href="#">Chính sách bảo hành</a></li>
+						<li><a href="#">Hình thức thanh toán</a></li>
+						<li><a href="#">Chính sách bảo hành</a></li>
+						<li><a href="#">Đổi - Trả sản phẩm</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-md-4">
+					<h3>Nhận thông tin khuyến mãi</h3>
+					<p>Đăng kí để nhận thông tin khuyến mãi</p>
+					<?php echo do_shortcode('[mc4wp_form id="119"]'); ?>
+					<div class="social">
+						<ul>
+ 							<li><a class="zalo" href="#" title="zalo">Zalo</a></li>
+							<li><a class="viber" href="#"title="viber">Viber</a></li>
+							<li><a class="fb" href="#" title="facebook">Facebook</a></li>
+							<li><a class="insta" href="#" title="instagram">Instagram</a></li>
+							<li><a class="yt" href="#" title="youtube">Youtube</a></li>
+							<li><a class="gp" href="#" title="google plus">Google Plus</a></li>
+						</ul>
+					</div>
+				</div>
 			</div>
 		</div>
 	</footer>
-	<a href="#" class="backtotop text-center">
-		<span class="icon"><i class="fa fa-chevron-up" aria-hidden="true"></i></span><span class="backtotop-text">Back to top</span>
-	</a>
-	<div class="footer-logo text-center">
-		<a href="<?php echo bloginfo("home"); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/outletbalo_logo_black.png" alt=""></a>
-	</div>
 	<div class="footer-copyright">
 		<p class="text-center">Copyright &copy; 2016 webbalo</p>
+		<a href="#" class="backtotop text-center">
+			<span class="icon"><i class="fa fa-chevron-up" aria-hidden="true"></i></span>
+		</a>
 	</div>
 	
 	<?php if(!is_user_logged_in()) : ?>

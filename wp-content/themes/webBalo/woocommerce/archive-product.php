@@ -42,7 +42,6 @@ get_header( 'shop' ); ?>
 		</div>
 		<?php endif; ?>
 	<?php endif; ?>
-
 	<div class="container-fluid main-content-wrapper">
 		<div class="row">
 			<div class="col-xs-12 col-md-12">
@@ -56,11 +55,6 @@ get_header( 'shop' ); ?>
 			do_action( 'woocommerce_before_main_content' );
 		?>
 		
-			<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
-		
-				<?php if(is_product_category()) : ?><h1 class="page-title"><?php woocommerce_page_title(); ?></h1><?php endif; ?>
-		
-			<?php endif; ?>
 		
 			<?php
 				/**
@@ -74,23 +68,33 @@ get_header( 'shop' ); ?>
 		
 		
 			<div class="container-fluid product-lists">
-			<?php if ( have_posts() ) : ?>
-				<div class="row result-ordering">
-					
-					<div class="col-xs-12">
-						<?php
-							/**
-							 * woocommerce_before_shop_loop hook.
-							 *
-							 * @hooked woocommerce_result_count - 20
-							 * @hooked woocommerce_catalog_ordering - 30
-							 */
-							do_action( 'woocommerce_before_shop_loop' );
-						?>
-							
-					</div><!--END result-ordering-->
-
+				<div class="row">
+					<div class="col-xs-12 col-md-2">
+						<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
+		
+							<?php if(is_product_category()) : ?><h1 class="page-title"><?php woocommerce_page_title(); ?></h1><?php endif; ?>
+				
+						<?php endif; ?>
+					</div>
+					<div class="col-xs-12 col-md-10">
+						<div class="result-ordering">
+							<?php dynamic_sidebar( 'middle-widget' ); ?>
+								<?php
+									/**
+									 * woocommerce_before_shop_loop hook.
+									 *
+									 * @hooked woocommerce_result_count - 20
+									 * @hooked woocommerce_catalog_ordering - 30
+									 */
+									do_action( 'woocommerce_before_shop_loop' );
+								?>
+									
+							<!--END result-ordering-->
+		
+						</div>
+					</div>
 				</div>
+			<?php if ( have_posts() ) : ?>
 
 				<div class="row">
 

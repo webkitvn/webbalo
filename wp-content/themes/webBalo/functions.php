@@ -56,6 +56,9 @@
 	remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_upsell_display', 15 );
 	remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_upsell_display', 15 );
 	remove_action( 'woocommerce_cart_collaterals', 'woocommerce_cross_sell_display', 10 );
+	remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_product_data_tabs', 10 );
+	// remove_action( 'woocommerce_before_shop_loop', 'woocommerce_result_count', 20 );
+	remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30 );
 	function webbalo_wrapper_start(){
 		echo '<div class="main products-wrapper">';
 	}
@@ -85,43 +88,17 @@
 	add_theme_support('woocommerce');
 
 	$args = array(
-		'name'          => 'Product Sidebar',
-		'id'            => "product-sidebar",
-		'description'   => 'webbalo Product Sidebar',
+		'name'          => 'Middle-widget',
+		'id'            => "middle-widget",
+		'description'   => 'webbalo Middle widget',
 		'class'         => '',
-		'before_widget' => '<figure id="widget-sidebar %1$s" class="widget %2$s">',
-		'after_widget'  => "</figure>\n",
+		'before_widget' => '<div id="middle-widget %1$s" class="widget %2$s">',
+		'after_widget'  => "</div>\n",
 		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => "</h2><div class='widget_cotent_wrapper' >\n",
+		'after_title'   => "</h2>\n",
 	);
 
 	register_sidebar( $args );
-
-	$single_args = array(
-		'name'          => 'Single Product Sidebar',
-		'id'            => "single-product-sidebar",
-		'description'   => 'webbalo Sidebar For Single Product',
-		'class'         => '',
-		'before_widget' => '<figure id="widget-sidebar %1$s" class="widget %2$s">',
-		'after_widget'  => "</figure>\n",
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => "</h2><div class='widget_cotent_wrapper' >\n",
-	);
-
-	register_sidebar( $single_args );
-
-	$news_args = array(
-		'name'          => 'News Sidebar',
-		'id'            => "news-sidebar",
-		'description'   => 'webbalo Sidebar For News',
-		'class'         => '',
-		'before_widget' => '<figure id="widget-sidebar %1$s" class="widget %2$s">',
-		'after_widget'  => "</figure>\n",
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => "</h2><div class='widget_cotent_wrapper' >\n",
-	);
-
-	register_sidebar( $news_args );
 
 	add_filter('woocommerce_currency_symbol', 'change_existing_currency_symbol', 10, 2);
 
@@ -151,6 +128,7 @@
 	    unset( $address_fields['company'] );
 	    return $address_fields;
 	}
+	
 	function register_my_menus() {
 	  register_nav_menus(
 	    array(

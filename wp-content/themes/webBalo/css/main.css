@@ -1,7 +1,7 @@
 body{
-	background: #ffffff;
+	background: #f1f2f2;
 	-webkit-font-smoothing: antialiased;
-	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+	font-family: "SourceSansProRegular", -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 }
 header{
 	background: #232222;
@@ -37,6 +37,7 @@ header .logo img{
 	max-width: 100%;
 	height: auto;
 	margin: 0 auto;
+	width: 150px;
 }
 header .menu-striger{
 	float: right;
@@ -82,47 +83,123 @@ header .menu-striger .striger-btn{
     left: 0px;
 }
 footer{
-	background: #f1f2f2;
+	background: #3a3a3a;
 	padding: 20px 0 50px;
+	color: #FFF;
+	position: relative;
+}
+footer .big-title{
+	margin-bottom: 50px;
 }
 footer .footer-col-content{
-	padding-top: 50px;
+	margin-bottom: 10px;
+	display: table;
 }
-.footer-address, .footer-phone{
-	font-weight: bold;
+footer .footer-col-content > span.icon{
+	vertical-align: middle;
+	display: table-cell;
+	padding-right: 10px;
+	width: 25px;
+	height: 100%;
+}
+footer .footer-col-content > div{
+	display: table-cell;
+	vertical-align: middle;
+	border-left: 1px solid #FFF;
+	padding-left: 10px;
+}
+footer .footer-col-content > div p{
+	margin: 0;
+}
+footer .footer-col-content a{
+	color: #FFF;
+}
+footer .footer-col-content a:hover{
+	text-decoration: underline;
+}
+footer .logo{
+	margin-bottom: 30px;
+}
+footer .logo img{
+	width: 150px;
+	height: auto;
+}
+footer h3{
+	margin: 0 0 30px;
+	font-family: "Cafeta", sans-serif;
+	text-transform: uppercase;
+}
+footer ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+footer ul li{
+	margin-bottom: 5px;
+}
+footer ul li a{
+	color: #FFF;
+}
+footer ul li a:hover{
+	color: #FFF;
+	text-decoration: underline;
+}
+footer form input[type=email]{
+	width: calc(100% - 100px);
+	float: left;
+	border: none;
+	padding: 7px 10px;
+}
+footer form input[type=submit]{
+	background: #111;
+	border: 0;
 	font-size: 1.3em;
+	font-family: "Cafeta", sans-serif;
+	width: 100px;
+	height: 35px;
+	text-align: center;
+	text-transform: uppercase;
+	float: left;
 }
-.footer-email p{
-	margin-bottom: 0px;
+footer .social li {
+	display: inline-block;
+	margin-top: 20px;
 }
-.footer-email a{
-	color: #111;
-	font-size: 1.3em;
-}
-.backtotop{
-	padding: 10px;
-	color: #333;
-	cursor: pointer;
-	font-family: "Cafeta";
-	font-size: 1.5em;
-	background: #e6e7e8;
+footer .social li a{
 	display: block;
+	width: 32px;
+	height: 32px;
+	background: url(../img/social-icons.png) no-repeat;
+	text-indent: -9999px;
 }
-.backtotop:hover{
-	text-decoration: none;
-	color: #333;
+footer .social li a.viber{
+	background-position: -37px 0;
 }
+footer .social li a.fb{
+	background-position: -74px 0;
+}
+footer .social li a.insta{
+	background-position: -111px 0;
+}
+footer .social li a.yt{
+	background-position: -148px 0;
+}
+footer .social li a.gp{
+	background-position: -185px 0;
+}
+
 .backtotop .icon{
 	display: inline-block;
-	width: 23px;
-	height: 23px;
+	width: 62px;
+	height: 63px;
 	text-align: center;
-	line-height: 15px;
-	border-radius: 100%;
-	border: 2px solid #333;
+	line-height: 62px;
 	color: #333;
-	margin-right: 10px;
 	font-size: 13px;
+	background: #FFF;
+	position: absolute;
+	right: 0;
+	bottom: 0;
 }
 .footer-logo{
 	padding: 20px 0;
@@ -133,6 +210,7 @@ footer .footer-col-content{
 	font-family: "Cafeta", sans-serif;
 	font-size: 1.2em;
 	padding: 20px 0 10px;
+	position: relative;
 }
 .page-content{
 	padding-bottom: 50px;
@@ -494,4 +572,52 @@ p.cart-empty{
 	font-family: "Cafeta";
 	text-align: center;
 	font-size: 3em;
+}
+.page-template-promotion-page .promo-banner a{
+	display: block;
+	margin: 20px 0;
+}
+.page-template-promotion-page .promo-banner img{
+	width: 100%;
+	height: auto;
+}
+.page-template-promotion-page .sub-form{
+	background: #f0f1f1;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.page-template-promotion-page .sub-form h3{
+	font-family: "Cafeta", sans-serif;
+	font-size: 2em;
+}
+.page-template-promotion-page .sub-form input[type=email]{
+	width: 100%;
+	padding: 10px;
+}
+.page-template-promotion-page .sub-form input[type=submit]{
+	background: #111;
+	border: 2px solid #111;
+	color: #FFF;
+	font-family: "Cafeta", sans-serif;
+	font-size: 2em;
+	padding: 2px 30px;
+	transition: all .3s ease;
+}
+.page-template-promotion-page .sub-form input[type=submit]:hover{
+	background: #FFF;
+	color: #111;
+}
+.prdctfltr_wc{
+	padding-top: 10px;
+}
+.prdctfltr_wc .prdctfltr_filter_title .prdctfltr_woocommerce_filter{
+	color: #111;
+}
+.prdctfltr_wc .prdctfltr_filter_title{
+	color: #DDD;
+	font-weight: normal !important;
+}
+.prdctfltr_wc .prdctfltr_filter_title > span{
+	color: #111;
+	font-weight: bold;
 }

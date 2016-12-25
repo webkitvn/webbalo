@@ -1,6 +1,6 @@
 .products .webbalo-product-item{
-    margin: 20px;
-    background: #e4e4e4;
+    margin: 10px 0;
+    background: #FFF;
     padding-bottom: 20px;
     position: relative;
 }
@@ -13,19 +13,20 @@
 }
 .products .webbalo-product-item .item-name{
     overflow: hidden;
+    margin-top: 10px;
 }
 .products .webbalo-product-item .item-name h3{
     font-family: "Cafeta", sans-serif;
     color: #111;
     margin: 0;
     padding: 5px 15px;
-    font-size: 2em;
+    font-size: 1.5em;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
 }
 .products .webbalo-product-item.product-slide .item-name h3{
-    font-size: 1.8em;
+    font-size: 1.5em;
 }
 .price{
     width: 100%;
@@ -41,13 +42,13 @@
     display: block;
     padding: 0 15px;
     font-family: "Cafeta", sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
     text-transform: uppercase;
     margin-top: -5px;
     margin-bottom: 10px;
 }
 .products .webbalo-product-item.product-slide .price{
-    font-size: 1.6em;
+    font-size: 1.4em;
 }
 .price del, .price ins,.price .amount{
     text-transform: uppercase;
@@ -57,7 +58,8 @@
     text-decoration: none;
 }
 .price del, .price del span{
-    color: #111 !important;
+    color: #6D6E71 !important;
+    font-size: .9em !important;
 }
 .products .webbalo-product-item .price ins{
     float: right;
@@ -66,11 +68,12 @@
 .products .webbalo-product-item .webbalo-btn{
     margin: 0 15px;
     width: calc(100%/2 - 30px);
-    font-size: 1.7em;
+    font-size: 1.2em;
     text-align: center;
+    border: 1px solid #111;
 }
 .products .webbalo-product-item.product-slide .webbalo-btn{
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 .products .webbalo-product-item .added_to_cart{
     display: block;
@@ -119,7 +122,6 @@
 }
 .result-ordering{
     overflow: hidden;
-    font-family: "Cafeta", sans-serif;
     font-size: 1.2em;
 }
 .result-ordering .woocommerce-result-count{
@@ -453,4 +455,50 @@ form.cart{
 }
 .customer-details address{
     padding: 20px;
+}
+#yith-ajaxsearchform{
+    margin: 20px 0 0px;
+}
+#yith-ajaxsearchform .screen-reader-text{
+    display: none;
+}
+#yith-ajaxsearchform input[type=search]{
+    width: calc(100% - 100px);
+    border: 1px solid #DDD;
+    padding: 10px;
+    border-radius: 0;
+    font-size: 1em;
+    float: left;
+}
+#yith-ajaxsearchform input[type=search]:focus{
+    outline: none;
+}
+#yith-ajaxsearchform input[type=submit]{
+    width: 100px;
+    float: left;
+    height: 45px;
+    background: #111;
+    border: 0;
+    font-family: "Cafeta", sans-serif;
+    color: #FFF;
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.autocomplete-suggestions{
+    top: 70px;
+    border-radius: 0;
+    z-index: 599 !important;
+}
+.prdctfltr_woocommerce.pf_sidebar .prdctfltr_woocommerce_filter_submit, .prdctfltr_woocommerce.pf_sidebar_right .prdctfltr_woocommerce_filter_submit, .prdctfltr_woocommerce.pf_sidebar_css .prdctfltr_woocommerce_filter_submit, .prdctfltr_woocommerce.pf_sidebar_css_right .prdctfltr_woocommerce_filter_submit{
+    background: #111;
+    color: #FFF;
+    font-family: "Cafeta", sans-serif;
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    display: block;
+    overflow: hidden;
+    clear: both;
+    text-transform: uppercase;
+    text-align: center;
 }
