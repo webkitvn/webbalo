@@ -11,12 +11,13 @@
 				// if(is_single()){
 		// 	wp_enqueue_style( 'single', get_template_directory_uri() . '/css/single.css', array(), '1.0', 'all' );
 		// }
-		if(is_home()){
-			wp_enqueue_script('slick-js', get_template_directory_uri().'/js/slick.min.js', array(), '1.0', true);
+		if(is_home() or is_product() or is_page(23) or is_order_received_page()){
+			wp_enqueue_script('slick-js', get_template_directory_uri().'/js/slick.min.js', array(), '1.0', false);
 			wp_enqueue_style( 'slick-css', get_template_directory_uri() . '/css/slick.css', array(), '1.0', 'all' );
 		}
 		wp_enqueue_script('fontawesome', 'https://use.fontawesome.com/4c8792004d.js', '1.0', false);
 		wp_enqueue_script('bootstrap-js', get_template_directory_uri().'/js/bootstrap.min.js', array(), '1.0', true);
+		wp_enqueue_script('scrollSpeed', get_template_directory_uri().'/js/jQuery.scrollSpeed.js', array(), '1.0', true);
 		wp_enqueue_script('main', get_template_directory_uri().'/js/main.js', array(), '1.0', true);
 		
 	}
@@ -75,6 +76,7 @@
 		echo '<a class="webbalo-btn" href="'.get_the_permalink().'">'.__('Chi tiết +', 'webbalo').'</a>';
 	}
 	add_action('woocommerce_after_shop_loop_item_title', 'webbalo_product_detail_btn', 15 );
+	
 
 
 	// Remove default WooCommerce breadcrumbs and add Yoast ones instead

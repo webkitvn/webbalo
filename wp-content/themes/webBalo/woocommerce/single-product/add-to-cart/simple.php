@@ -58,6 +58,7 @@ if ( ! $product->is_purchasable() ) {
 	 	<button type="submit" class="btn single_add_to_cart_button button alt webbalo-btn"><?php echo esc_html( $product->single_add_to_cart_text() ); ?></button>
 
 		<?php do_action( 'woocommerce_after_add_to_cart_button' ); ?>
+		<?php //wc_print_notices(); ?>
 	</form>
 
 	<?php do_action( 'woocommerce_after_add_to_cart_form' ); ?>

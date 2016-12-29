@@ -8,8 +8,9 @@
 	<link rel="stylesheet" href="<?php echo get_stylesheet_uri() ?>">
 </head>
 <body <?php body_class() ?>>
+	<div id="wrapper">
 	<header id="header">
-		<div class="container-fluid">
+		<div class="container">
 			<div class="col-xs-12 col-md-4">
 				<div class="top-menu">
 					<ul class="menu">
@@ -34,6 +35,13 @@
 				</div>
 			</div>
 			<div class="col-xs-12 col-md-4">
+				<div id="searchform">
+					<form action="/">
+						<input type="search" name="s" placeholder="Tìm kiếm sản phẩm của bạn ở đây nhé !">
+						<a href="#" class="search-btn"><i class="fa fa-search fa-2x" aria-hidden="true"></i></a>
+						<button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+					</form>
+				</div>
 				<div class="menu-striger">
 					<a class="striger-btn" id="striger-btn" href="#">
 						<i class="fa fa-bars fa-2x" aria-hidden="true"></i>

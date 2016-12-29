@@ -22,7 +22,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 get_header( 'shop' ); ?>
 
-	<div class="container-fluid main-content-wrapper">
+	<div class="container main-content-wrapper">
 		<div class="row">
 			<div class="col-xs-12 col-md-12">
 
@@ -53,6 +53,8 @@ get_header( 'shop' ); ?>
 	</div>
 	</div><!--end row-->
 </div><!--END main-content-wrapper-->
+
+<?php include_once($_SERVER["DOCUMENT_ROOT"] . "/wp-content/themes/webBalo/new-products.php")?>
 
 
 <?php get_footer( 'shop' ); ?>

@@ -2,6 +2,8 @@ jQuery('.woocommerce-message').on('click', function(){
 	jQuery(this).fadeOut(500);
 })
 
+jQuery.scrollSpeed(100, 800);
+
 jQuery(document).ready(function() {
    	jQuery("#menu ul.menu > li").click(function(){
    		var sub_menu = jQuery(this).find("ul.sub-menu");
@@ -68,3 +70,15 @@ jQuery(window).scroll(function(){
       jQuery("#header").removeClass('fixed-menu');
     }
  });
+ 
+jQuery("#searchform form a.search-btn").click(function(){
+  jQuery("#searchform form button").css("display", "block");
+  jQuery(this).css("display", "none");
+  jQuery("#searchform input[type=search]").css("visibility", "visible").focus();
+  return false;
+})
+ 
+ jQuery(".backtotop").click(function(){
+   jQuery('html, body').animate({scrollTop : 0},500);
+        return false;
+ })

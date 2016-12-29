@@ -75,15 +75,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 				<span class="return">30 ngày Đổi trả</span>
 				<span class="payment">Thanh toán khi nhận hàng</span>
 				</p>
-				<?php wc_print_notices(); ?>
 			</div><!-- .summary -->
 		</div>
 	</div><!--END .row -->
-	<div class="row">
-		<div class="col-xs-12">
-			<?php do_action( 'woocommerce_product_thumbnails' ); ?>
-		</div>
-	</div>
 	<?php
 		/**
 		 * woocommerce_after_single_product_summary hook.
@@ -100,3 +94,40 @@ if ( ! defined( 'ABSPATH' ) ) {
 </div><!-- #product-<?php the_ID(); ?> -->
 
 <?php do_action( 'woocommerce_after_single_product' ); ?>
+
+<script>
+	jQuery('.single-product .thumbnails').slick({
+  	  autoplay: true,
+	  infinite: true,
+	  speed: 300,
+	  slidesToShow: 3,
+	  slidesToScroll: 1,
+	  prevArrow : '<button type="button" class="slick-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></button>',
+	  nextArrow : '<button type="button" class="slick-next"><i class="fa fa-angle-right" aria-hidden="true"></i></button>',
+	  responsive: [
+	    {
+	      breakpoint: 1024,
+	      settings: {
+	        slidesToShow: 3,
+	        slidesToScroll: 3,
+	        infinite: true,
+	        dots: false
+	      }
+	    },
+	    {
+	      breakpoint: 600,
+	      settings: {
+	        slidesToShow: 2,
+	        slidesToScroll: 2
+	      }
+	    },
+	    {
+	      breakpoint: 480,
+	      settings: {
+	        slidesToShow: 1,
+	        slidesToScroll: 1
+	      }
+	    }
+	  ]
+	});
+</script>

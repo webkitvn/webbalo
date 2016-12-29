@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "ivpa";
+  src:url("fonts/ivpa.eot");
+  src:url("fonts/ivpa.svg#ivpa") format("svg"),
+    url("fonts/ivpa.eot?#iefix") format("embedded-opentype"),
+    url("fonts/ivpa.woff") format("woff"),
+    url("fonts/ivpa.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[class^="ivpa-"]:before,
+[class*=" ivpa-"]:before {
+  font-family: "ivpa" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  vertical-align: middle;
+}
+
+.ivpa-reorder:before {
+  content: "\f001";
+}
+.ivpa-remove:before {
+  content: "\f002";
+}
+.ivpa-slidedown:before {
+  content: "\f003";
+}
+.ivpa-slideup:before {
+  content: "\f004";
+}
+.ivpa-select:before {
+  content: "\f005";
+}
+.ivpa-warning:before {
+  content: "\f006";
+}

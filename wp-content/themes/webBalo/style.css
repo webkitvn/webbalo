@@ -32,7 +32,8 @@ Text Domain: shoping
 	height: auto;
 }
 #blocks .block-item h4{
-	color: #111;
+	color: #FFF;
+	text-shadow: rgba(0,0,0,0.498039) 0px 2px 5px;
 	position: absolute;
 	top:  20%;
 	left: 10%;
@@ -59,7 +60,7 @@ Text Domain: shoping
 }
 #menu{
 	position: fixed;
-	top: 60px;
+	top: 57px;
 	bottom: 0;
 	right: -500px;
 	z-index: 9999;

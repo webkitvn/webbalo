@@ -1,17 +1,18 @@
-# Copyright (C) 2016 WooThemes
-# This file is distributed under the same license as the WooCommerce package.
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce 2.6.10\n"
 "Report-Msgid-Bugs-To: https://github.com/woothemes/woocommerce/issues\n"
-"POT-Creation-Date: 2016-12-21 14:47:11+00:00\n"
+"POT-Creation-Date: 2016-12-26 05:29+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
-"X-Generator: grunt-wp-i18n 0.5.4\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION"
 
 #: i18n/continents.php:19
 msgid "Africa"
@@ -3935,8 +3936,8 @@ msgstr ""
 
 #: i18n/states/TH.php:13
 msgid ""
-"Amnat Charoen "
-"(&#3629;&#3635;&#3609;&#3634;&#3592;&#3648;&#3592;&#3619;&#3636;&#3597;)"
+"Amnat Charoen (&#3629;&#3635;&#3609;&#3634;&#3592;&#3648;&#3592;&#3619;"
+"&#3636;&#3597;)"
 msgstr ""
 
 #: i18n/states/TH.php:14
@@ -3945,16 +3946,14 @@ msgstr ""
 
 #: i18n/states/TH.php:15
 msgid ""
-"Ayutthaya "
-"(&#3614;&#3619;&#3632;&#3609;&#3588;&#3619;&#3624;&#3619;&#3637;&#3629;&#361"
-"8;&#3640;&#3608;&#3618;&#3634;)"
+"Ayutthaya (&#3614;&#3619;&#3632;&#3609;&#3588;&#3619;&#3624;&#3619;&#3637;"
+"&#3629;&#3618;&#3640;&#3608;&#3618;&#3634;)"
 msgstr ""
 
 #: i18n/states/TH.php:16
 msgid ""
-"Bangkok "
-"(&#3585;&#3619;&#3640;&#3591;&#3648;&#3607;&#3614;&#3617;&#3627;&#3634;&#360"
-"9;&#3588;&#3619;)"
+"Bangkok (&#3585;&#3619;&#3640;&#3591;&#3648;&#3607;&#3614;&#3617;&#3627;"
+"&#3634;&#3609;&#3588;&#3619;)"
 msgstr ""
 
 #: i18n/states/TH.php:17
@@ -3962,13 +3961,14 @@ msgid "Bueng Kan (&#3610;&#3638;&#3591;&#3585;&#3634;&#3628;)"
 msgstr ""
 
 #: i18n/states/TH.php:18
-msgid "Buri Ram (&#3610;&#3640;&#3619;&#3637;&#3619;&#3633;&#3617;&#3618;&#3660;)"
+msgid ""
+"Buri Ram (&#3610;&#3640;&#3619;&#3637;&#3619;&#3633;&#3617;&#3618;&#3660;)"
 msgstr ""
 
 #: i18n/states/TH.php:19
 msgid ""
-"Chachoengsao "
-"(&#3593;&#3632;&#3648;&#3594;&#3636;&#3591;&#3648;&#3607;&#3619;&#3634;)"
+"Chachoengsao (&#3593;&#3632;&#3648;&#3594;&#3636;&#3591;&#3648;&#3607;&#3619;"
+"&#3634;)"
 msgstr ""
 
 #: i18n/states/TH.php:20
@@ -3984,7 +3984,8 @@ msgid "Chanthaburi (&#3592;&#3633;&#3609;&#3607;&#3610;&#3640;&#3619;&#3637;)"
 msgstr ""
 
 #: i18n/states/TH.php:23
-msgid "Chiang Mai (&#3648;&#3594;&#3637;&#3618;&#3591;&#3651;&#3627;&#3617;&#3656;)"
+msgid ""
+"Chiang Mai (&#3648;&#3594;&#3637;&#3618;&#3591;&#3651;&#3627;&#3617;&#3656;)"
 msgstr ""
 
 #: i18n/states/TH.php:24
@@ -4000,19 +4001,20 @@ msgid "Chumphon (&#3594;&#3640;&#3617;&#3614;&#3619;)"
 msgstr ""
 
 #: i18n/states/TH.php:27
-msgid "Kalasin (&#3585;&#3634;&#3628;&#3626;&#3636;&#3609;&#3608;&#3640;&#3660;)"
+msgid ""
+"Kalasin (&#3585;&#3634;&#3628;&#3626;&#3636;&#3609;&#3608;&#3640;&#3660;)"
 msgstr ""
 
 #: i18n/states/TH.php:28
 msgid ""
-"Kamphaeng Phet "
-"(&#3585;&#3635;&#3649;&#3614;&#3591;&#3648;&#3614;&#3594;&#3619;)"
+"Kamphaeng Phet (&#3585;&#3635;&#3649;&#3614;&#3591;&#3648;&#3614;&#3594;"
+"&#3619;)"
 msgstr ""
 
 #: i18n/states/TH.php:29
 msgid ""
-"Kanchanaburi "
-"(&#3585;&#3634;&#3597;&#3592;&#3609;&#3610;&#3640;&#3619;&#3637;)"
+"Kanchanaburi (&#3585;&#3634;&#3597;&#3592;&#3609;&#3610;&#3640;&#3619;&#3637;"
+")"
 msgstr ""
 
 #: i18n/states/TH.php:30
@@ -4041,14 +4043,14 @@ msgstr ""
 
 #: i18n/states/TH.php:36
 msgid ""
-"Mae Hong Son "
-"(&#3649;&#3617;&#3656;&#3630;&#3656;&#3629;&#3591;&#3626;&#3629;&#3609;)"
+"Mae Hong Son (&#3649;&#3617;&#3656;&#3630;&#3656;&#3629;&#3591;&#3626;&#3629;"
+"&#3609;)"
 msgstr ""
 
 #: i18n/states/TH.php:37
 msgid ""
-"Maha Sarakham "
-"(&#3617;&#3627;&#3634;&#3626;&#3634;&#3619;&#3588;&#3634;&#3617;)"
+"Maha Sarakham (&#3617;&#3627;&#3634;&#3626;&#3634;&#3619;&#3588;&#3634;"
+"&#3617;)"
 msgstr ""
 
 #: i18n/states/TH.php:38
@@ -4069,21 +4071,20 @@ msgstr ""
 
 #: i18n/states/TH.php:42
 msgid ""
-"Nakhon Ratchasima "
-"(&#3609;&#3588;&#3619;&#3619;&#3634;&#3594;&#3626;&#3637;&#3617;&#3634;)"
+"Nakhon Ratchasima (&#3609;&#3588;&#3619;&#3619;&#3634;&#3594;&#3626;&#3637;"
+"&#3617;&#3634;)"
 msgstr ""
 
 #: i18n/states/TH.php:43
 msgid ""
-"Nakhon Sawan "
-"(&#3609;&#3588;&#3619;&#3626;&#3623;&#3619;&#3619;&#3588;&#3660;)"
+"Nakhon Sawan (&#3609;&#3588;&#3619;&#3626;&#3623;&#3619;&#3619;&#3588;&#3660;"
+")"
 msgstr ""
 
 #: i18n/states/TH.php:44
 msgid ""
-"Nakhon Si Thammarat "
-"(&#3609;&#3588;&#3619;&#3624;&#3619;&#3637;&#3608;&#3619;&#3619;&#3617;&#361"
-"9;&#3634;&#3594;)"
+"Nakhon Si Thammarat (&#3609;&#3588;&#3619;&#3624;&#3619;&#3637;&#3608;&#3619;"
+"&#3619;&#3617;&#3619;&#3634;&#3594;)"
 msgstr ""
 
 #: i18n/states/TH.php:45
@@ -4096,9 +4097,8 @@ msgstr ""
 
 #: i18n/states/TH.php:47
 msgid ""
-"Nong Bua Lam Phu "
-"(&#3627;&#3609;&#3629;&#3591;&#3610;&#3633;&#3623;&#3621;&#3635;&#3616;&#364"
-"1;)"
+"Nong Bua Lam Phu (&#3627;&#3609;&#3629;&#3591;&#3610;&#3633;&#3623;&#3621;"
+"&#3635;&#3616;&#3641;)"
 msgstr ""
 
 #: i18n/states/TH.php:48
@@ -4130,7 +4130,8 @@ msgid "Phayao (&#3614;&#3632;&#3648;&#3618;&#3634;)"
 msgstr ""
 
 #: i18n/states/TH.php:55
-msgid "Phetchabun (&#3648;&#3614;&#3594;&#3619;&#3610;&#3641;&#3619;&#3603;&#3660;)"
+msgid ""
+"Phetchabun (&#3648;&#3614;&#3594;&#3619;&#3610;&#3641;&#3619;&#3603;&#3660;)"
 msgstr ""
 
 #: i18n/states/TH.php:56
@@ -4155,15 +4156,14 @@ msgstr ""
 
 #: i18n/states/TH.php:61
 msgid ""
-"Prachin Buri "
-"(&#3611;&#3619;&#3634;&#3592;&#3637;&#3609;&#3610;&#3640;&#3619;&#3637;)"
+"Prachin Buri (&#3611;&#3619;&#3634;&#3592;&#3637;&#3609;&#3610;&#3640;&#3619;"
+"&#3637;)"
 msgstr ""
 
 #: i18n/states/TH.php:62
 msgid ""
-"Prachuap Khiri Khan "
-"(&#3611;&#3619;&#3632;&#3592;&#3623;&#3610;&#3588;&#3637;&#3619;&#3637;&#358"
-"6;&#3633;&#3609;&#3608;&#3660;)"
+"Prachuap Khiri Khan (&#3611;&#3619;&#3632;&#3592;&#3623;&#3610;&#3588;&#3637;"
+"&#3619;&#3637;&#3586;&#3633;&#3609;&#3608;&#3660;)"
 msgstr ""
 
 #: i18n/states/TH.php:63
@@ -4192,22 +4192,20 @@ msgstr ""
 
 #: i18n/states/TH.php:69
 msgid ""
-"Samut Prakan "
-"(&#3626;&#3617;&#3640;&#3607;&#3619;&#3611;&#3619;&#3634;&#3585;&#3634;&#361"
-"9;)"
+"Samut Prakan (&#3626;&#3617;&#3640;&#3607;&#3619;&#3611;&#3619;&#3634;&#3585;"
+"&#3634;&#3619;)"
 msgstr ""
 
 #: i18n/states/TH.php:70
 msgid ""
-"Samut Sakhon "
-"(&#3626;&#3617;&#3640;&#3607;&#3619;&#3626;&#3634;&#3588;&#3619;)"
+"Samut Sakhon (&#3626;&#3617;&#3640;&#3607;&#3619;&#3626;&#3634;&#3588;&#3619;"
+")"
 msgstr ""
 
 #: i18n/states/TH.php:71
 msgid ""
-"Samut Songkhram "
-"(&#3626;&#3617;&#3640;&#3607;&#3619;&#3626;&#3591;&#3588;&#3619;&#3634;&#361"
-"7;)"
+"Samut Songkhram (&#3626;&#3617;&#3640;&#3607;&#3619;&#3626;&#3591;&#3588;"
+"&#3619;&#3634;&#3617;)"
 msgstr ""
 
 #: i18n/states/TH.php:72
@@ -4219,7 +4217,8 @@ msgid "Satun (&#3626;&#3605;&#3641;&#3621;)"
 msgstr ""
 
 #: i18n/states/TH.php:74
-msgid "Sing Buri (&#3626;&#3636;&#3591;&#3627;&#3660;&#3610;&#3640;&#3619;&#3637;)"
+msgid ""
+"Sing Buri (&#3626;&#3636;&#3591;&#3627;&#3660;&#3610;&#3640;&#3619;&#3637;)"
 msgstr ""
 
 #: i18n/states/TH.php:75
@@ -4236,15 +4235,14 @@ msgstr ""
 
 #: i18n/states/TH.php:78
 msgid ""
-"Suphan Buri "
-"(&#3626;&#3640;&#3614;&#3619;&#3619;&#3603;&#3610;&#3640;&#3619;&#3637;)"
+"Suphan Buri (&#3626;&#3640;&#3614;&#3619;&#3619;&#3603;&#3610;&#3640;&#3619;"
+"&#3637;)"
 msgstr ""
 
 #: i18n/states/TH.php:79
 msgid ""
-"Surat Thani "
-"(&#3626;&#3640;&#3619;&#3634;&#3625;&#3598;&#3619;&#3660;&#3608;&#3634;&#360"
-"9;&#3637;)"
+"Surat Thani (&#3626;&#3640;&#3619;&#3634;&#3625;&#3598;&#3619;&#3660;&#3608;"
+"&#3634;&#3609;&#3637;)"
 msgstr ""
 
 #: i18n/states/TH.php:80
@@ -4265,9 +4263,8 @@ msgstr ""
 
 #: i18n/states/TH.php:84
 msgid ""
-"Ubon Ratchathani "
-"(&#3629;&#3640;&#3610;&#3621;&#3619;&#3634;&#3594;&#3608;&#3634;&#3609;&#363"
-"7;)"
+"Ubon Ratchathani (&#3629;&#3640;&#3610;&#3621;&#3619;&#3634;&#3594;&#3608;"
+"&#3634;&#3609;&#3637;)"
 msgstr ""
 
 #: i18n/states/TH.php:85
@@ -4276,12 +4273,12 @@ msgstr ""
 
 #: i18n/states/TH.php:86
 msgid ""
-"Uthai Thani "
-"(&#3629;&#3640;&#3607;&#3633;&#3618;&#3608;&#3634;&#3609;&#3637;)"
+"Uthai Thani (&#3629;&#3640;&#3607;&#3633;&#3618;&#3608;&#3634;&#3609;&#3637;)"
 msgstr ""
 
 #: i18n/states/TH.php:87
-msgid "Uttaradit (&#3629;&#3640;&#3605;&#3619;&#3604;&#3636;&#3605;&#3606;&#3660;)"
+msgid ""
+"Uttaradit (&#3629;&#3640;&#3605;&#3619;&#3604;&#3636;&#3605;&#3606;&#3660;)"
 msgstr ""
 
 #: i18n/states/TH.php:88
@@ -5155,11 +5152,13 @@ msgid "The %s cannot be deleted."
 msgstr ""
 
 #: includes/abstracts/abstract-wc-rest-posts-controller.php:615
-msgid "Limit response to resources published after a given ISO8601 compliant date."
+msgid ""
+"Limit response to resources published after a given ISO8601 compliant date."
 msgstr ""
 
 #: includes/abstracts/abstract-wc-rest-posts-controller.php:621
-msgid "Limit response to resources published before a given ISO8601 compliant date."
+msgid ""
+"Limit response to resources published before a given ISO8601 compliant date."
 msgstr ""
 
 #: includes/abstracts/abstract-wc-rest-posts-controller.php:627
@@ -5451,8 +5450,8 @@ msgstr ""
 
 #: includes/admin/class-wc-admin-assets.php:147
 msgid ""
-"Please enter in monetary decimal (%s) format without thousand separators "
-"and currency symbols."
+"Please enter in monetary decimal (%s) format without thousand separators and "
+"currency symbols."
 msgstr ""
 
 #: includes/admin/class-wc-admin-assets.php:148
@@ -5555,11 +5554,13 @@ msgid "Please select some items."
 msgstr ""
 
 #: includes/admin/class-wc-admin-assets.php:237
-msgid "Are you sure you wish to process this refund? This action cannot be undone."
+msgid ""
+"Are you sure you wish to process this refund? This action cannot be undone."
 msgstr ""
 
 #: includes/admin/class-wc-admin-assets.php:238
-msgid "Are you sure you wish to delete this refund? This action cannot be undone."
+msgid ""
+"Are you sure you wish to delete this refund? This action cannot be undone."
 msgstr ""
 
 #: includes/admin/class-wc-admin-assets.php:239
@@ -5698,7 +5699,8 @@ msgid ""
 msgstr ""
 
 #: includes/admin/class-wc-admin-assets.php:287
-msgid "Are you sure you wish to delete this note? This action cannot be undone."
+msgid ""
+"Are you sure you wish to delete this note? This action cannot be undone."
 msgstr ""
 
 #: includes/admin/class-wc-admin-assets.php:336
@@ -5715,7 +5717,8 @@ msgstr ""
 #: includes/admin/class-wc-admin-attributes.php:100
 #: includes/api/legacy/v2/class-wc-api-products.php:2097
 #: includes/api/legacy/v3/class-wc-api-products.php:2678
-msgid "Slug \"%s\" is not allowed because it is a reserved term. Change it, please."
+msgid ""
+"Slug \"%s\" is not allowed because it is a reserved term. Change it, please."
 msgstr ""
 
 #: includes/admin/class-wc-admin-attributes.php:117
@@ -5757,7 +5760,8 @@ msgstr ""
 
 #: includes/admin/class-wc-admin-attributes.php:289
 #: includes/admin/class-wc-admin-attributes.php:452
-msgid "Unique slug/reference for the attribute; must be shorter than 28 characters."
+msgid ""
+"Unique slug/reference for the attribute; must be shorter than 28 characters."
 msgstr ""
 
 #: includes/admin/class-wc-admin-attributes.php:294
@@ -6153,10 +6157,10 @@ msgstr ""
 #: includes/admin/class-wc-admin-help.php:205
 msgid ""
 "If you find a bug within WooCommerce core you can create a ticket via <a "
-"href=\"%s\">Github issues</a>. Ensure you read the <a "
-"href=\"%s\">contribution guide</a> prior to submitting your report. To help "
-"us solve your issue, please be as descriptive as possible and include your "
-"<a href=\"%s\">system status report</a>."
+"href=\"%s\">Github issues</a>. Ensure you read the <a href=\"%s\">"
+"contribution guide</a> prior to submitting your report. To help us solve "
+"your issue, please be as descriptive as possible and include your <a "
+"href=\"%s\">system status report</a>."
 msgstr ""
 
 #: includes/admin/class-wc-admin-help.php:206
@@ -6360,8 +6364,8 @@ msgstr ""
 
 #: includes/admin/class-wc-admin-permalink-settings.php:132
 msgid ""
-"Enter a custom base to use. A base <strong>must</strong> be set or "
-"WordPress will use default instead."
+"Enter a custom base to use. A base <strong>must</strong> be set or WordPress "
+"will use default instead."
 msgstr ""
 
 #: includes/admin/class-wc-admin-pointers.php:60
@@ -6370,8 +6374,8 @@ msgstr ""
 
 #: includes/admin/class-wc-admin-pointers.php:61
 msgid ""
-"Give your new product a name here. This is a required field and will be "
-"what your customers will see in your store."
+"Give your new product a name here. This is a required field and will be what "
+"your customers will see in your store."
 msgstr ""
 
 #: includes/admin/class-wc-admin-pointers.php:73
@@ -6396,7 +6400,8 @@ msgid ""
 msgstr ""
 
 #: includes/admin/class-wc-admin-pointers.php:91
-msgid "Variable is for more complex products such as t-shirts with multiple sizes."
+msgid ""
+"Variable is for more complex products such as t-shirts with multiple sizes."
 msgstr ""
 
 #: includes/admin/class-wc-admin-pointers.php:92
@@ -6425,8 +6430,8 @@ msgstr ""
 
 #: includes/admin/class-wc-admin-pointers.php:125
 msgid ""
-"If purchasing this product gives a customer access to a downloadable file, "
-"e.g. software, check this box."
+"If purchasing this product gives a customer access to a downloadable file, e."
+"g. software, check this box."
 msgstr ""
 
 #: includes/admin/class-wc-admin-pointers.php:140
@@ -6535,7 +6540,8 @@ msgid "M j, Y @ G:i"
 msgstr ""
 
 #: includes/admin/class-wc-admin-post-types.php:137
-msgid "Product draft updated. <a target=\"_blank\" href=\"%s\">Preview Product</a>"
+msgid ""
+"Product draft updated. <a target=\"_blank\" href=\"%s\">Preview Product</a>"
 msgstr ""
 
 #: includes/admin/class-wc-admin-post-types.php:142
@@ -7432,7 +7438,8 @@ msgid ""
 msgstr ""
 
 #: includes/admin/class-wc-admin-setup-wizard.php:242
-msgid "The checkout page will be where the customers go to pay for their items."
+msgid ""
+"The checkout page will be where the customers go to pay for their items."
 msgstr ""
 
 #: includes/admin/class-wc-admin-setup-wizard.php:248
@@ -7621,8 +7628,8 @@ msgstr ""
 
 #: includes/admin/class-wc-admin-setup-wizard.php:459
 msgid ""
-"The following tax rates will be imported automatically for you. You can "
-"read more about taxes in %1$sour documentation%2$s."
+"The following tax rates will be imported automatically for you. You can read "
+"more about taxes in %1$sour documentation%2$s."
 msgstr ""
 
 #: includes/admin/class-wc-admin-setup-wizard.php:465
@@ -7668,7 +7675,8 @@ msgid "PayPal email address"
 msgstr ""
 
 #: includes/admin/class-wc-admin-setup-wizard.php:603
-msgid "A simple offline gateway that lets you accept a check as method of payment."
+msgid ""
+"A simple offline gateway that lets you accept a check as method of payment."
 msgstr ""
 
 #: includes/admin/class-wc-admin-setup-wizard.php:609
@@ -7682,8 +7690,8 @@ msgstr ""
 #: includes/admin/class-wc-admin-setup-wizard.php:646
 msgid ""
 "WooCommerce can accept both online and offline payments. %2$sAdditional "
-"payment methods%3$s can be installed later and managed from the "
-"%1$scheckout settings%3$s screen."
+"payment methods%3$s can be installed later and managed from the %1$scheckout "
+"settings%3$s screen."
 msgstr ""
 
 #: includes/admin/class-wc-admin-setup-wizard.php:751
@@ -7803,8 +7811,8 @@ msgstr ""
 
 #: includes/admin/class-wc-admin-status.php:163
 msgid ""
-"This tool will recount product terms - useful when changing your settings "
-"in a way which hides products from the catalog."
+"This tool will recount product terms - useful when changing your settings in "
+"a way which hides products from the catalog."
 msgstr ""
 
 #: includes/admin/class-wc-admin-status.php:166
@@ -7859,8 +7867,8 @@ msgstr ""
 
 #: includes/admin/class-wc-admin-status.php:183
 msgid ""
-"<strong class=\"red\">Note:</strong> This option will delete ALL of your "
-"tax rates, use with caution."
+"<strong class=\"red\">Note:</strong> This option will delete ALL of your tax "
+"rates, use with caution."
 msgstr ""
 
 #: includes/admin/class-wc-admin-status.php:186
@@ -7933,10 +7941,10 @@ msgstr ""
 
 #: includes/admin/class-wc-admin-taxonomies.php:300
 msgid ""
-"Attribute terms can be assigned to products and "
-"variations.<br/><br/><b>Note</b>: Deleting a term will remove it from all "
-"products and variations to which it has been assigned. Recreating a term "
-"will not automatically assign it back to products."
+"Attribute terms can be assigned to products and variations.<br/><br/><b>"
+"Note</b>: Deleting a term will remove it from all products and variations to "
+"which it has been assigned. Recreating a term will not automatically assign "
+"it back to products."
 msgstr ""
 
 #: includes/admin/class-wc-admin-webhooks-table-list.php:26
@@ -8064,8 +8072,8 @@ msgstr ""
 
 #: includes/admin/class-wc-admin.php:229
 msgid ""
-"If you like <strong>WooCommerce</strong> please leave us a "
-"%s&#9733;&#9733;&#9733;&#9733;&#9733;%s rating. A huge thanks in advance!"
+"If you like <strong>WooCommerce</strong> please leave us a %s&#9733;&#9733;"
+"&#9733;&#9733;&#9733;%s rating. A huge thanks in advance!"
 msgstr ""
 
 #: includes/admin/class-wc-admin.php:229
@@ -8102,8 +8110,8 @@ msgstr ""
 
 #: includes/admin/importers/class-wc-tax-rate-importer.php:230
 msgid ""
-"Hi there! Upload a CSV file containing tax rates to import the contents "
-"into your shop. Choose a .csv file to upload, then click \"Upload file and "
+"Hi there! Upload a CSV file containing tax rates to import the contents into "
+"your shop. Choose a .csv file to upload, then click \"Upload file and "
 "import\"."
 msgstr ""
 
@@ -8174,8 +8182,8 @@ msgstr ""
 msgid ""
 "Check this box if the coupon grants free shipping. A <a href=\"%s\">free "
 "shipping method</a> must be enabled in your shipping zone and be set to "
-"require \"a valid free shipping coupon\" (see the \"Free Shipping "
-"Requires\" setting)."
+"require \"a valid free shipping coupon\" (see the \"Free Shipping Requires\" "
+"setting)."
 msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:76
@@ -8295,8 +8303,8 @@ msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:170
 msgid ""
-"List of allowed emails to check against the customer's billing email when "
-"an order is placed. Separate email addresses with commas."
+"List of allowed emails to check against the customer's billing email when an "
+"order is placed. Separate email addresses with commas."
 msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:184
@@ -8631,8 +8639,8 @@ msgstr ""
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:174
 #: includes/admin/meta-boxes/views/html-variation-admin.php:259
 msgid ""
-"This is the URL or absolute path to the file which customers will get "
-"access to. URLs entered here should already be encoded."
+"This is the URL or absolute path to the file which customers will get access "
+"to. URLs entered here should already be encoded."
 msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:200
@@ -8672,7 +8680,8 @@ msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:215
 #: includes/admin/meta-boxes/views/html-variation-admin.php:302
-msgid "Enter the number of days before a download link expires, or leave blank."
+msgid ""
+"Enter the number of days before a download link expires, or leave blank."
 msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:221
@@ -8739,8 +8748,8 @@ msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:263
 msgid ""
-"Choose a tax class for this product. Tax classes are used to apply "
-"different tax rates specific to certain types of product."
+"Choose a tax class for this product. Tax classes are used to apply different "
+"tax rates specific to certain types of product."
 msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:284
@@ -8772,8 +8781,7 @@ msgstr ""
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:305
 msgid ""
 "Stock quantity. If this is a variable product this value will be used to "
-"control stock for all variations, unless you define stock at variation "
-"level."
+"control stock for all variations, unless you define stock at variation level."
 msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:314
@@ -8820,7 +8828,8 @@ msgid "Sold individually"
 msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:339
-msgid "Enable this to only allow one of this item to be bought in a single order"
+msgid ""
+"Enable this to only allow one of this item to be bought in a single order"
 msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:358
@@ -8911,8 +8920,8 @@ msgstr ""
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:492
 msgid ""
 "Up-sells are products which you recommend instead of the currently viewed "
-"product, for example, products that are more profitable or better quality "
-"or more expensive."
+"product, for example, products that are more profitable or better quality or "
+"more expensive."
 msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:496
@@ -8921,8 +8930,8 @@ msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:509
 msgid ""
-"Cross-sells are products which you promote in the cart, based on the "
-"current product."
+"Cross-sells are products which you promote in the cart, based on the current "
+"product."
 msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:516
@@ -9104,7 +9113,8 @@ msgid ""
 msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:1178
-msgid "The downloadable file %s cannot be used as it does not exist on the server."
+msgid ""
+"The downloadable file %s cannot be used as it does not exist on the server."
 msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:1342
@@ -9440,7 +9450,8 @@ msgid "Upload an image"
 msgstr ""
 
 #: includes/admin/meta-boxes/views/html-variation-admin.php:68
-msgid "Enter a SKU for this variation or leave blank to use the parent product SKU."
+msgid ""
+"Enter a SKU for this variation or leave blank to use the parent product SKU."
 msgstr ""
 
 #: includes/admin/meta-boxes/views/html-variation-admin.php:76
@@ -9460,7 +9471,8 @@ msgid ""
 msgstr ""
 
 #: includes/admin/meta-boxes/views/html-variation-admin.php:80
-msgid "Enable this option if a product is not shipped or there is no shipping cost"
+msgid ""
+"Enable this option if a product is not shipped or there is no shipping cost"
 msgstr ""
 
 #: includes/admin/meta-boxes/views/html-variation-admin.php:84
@@ -9768,8 +9780,8 @@ msgstr ""
 
 #: includes/admin/reports/class-wc-report-sales-by-date.php:375
 msgid ""
-"This is the sum of the order totals after any refunds and including "
-"shipping and taxes."
+"This is the sum of the order totals after any refunds and including shipping "
+"and taxes."
 msgstr ""
 
 #: includes/admin/reports/class-wc-report-sales-by-date.php:388
@@ -9778,8 +9790,8 @@ msgstr ""
 
 #: includes/admin/reports/class-wc-report-sales-by-date.php:389
 msgid ""
-"This is the sum of the order totals after any refunds and excluding "
-"shipping and taxes."
+"This is the sum of the order totals after any refunds and excluding shipping "
+"and taxes."
 msgstr ""
 
 #: includes/admin/reports/class-wc-report-sales-by-date.php:402
@@ -9920,7 +9932,8 @@ msgid "Shipping Tax Amount"
 msgstr ""
 
 #: includes/admin/reports/class-wc-report-taxes-by-code.php:153
-msgid "This is the sum of the \"Tax Rows\" shipping tax amount within your orders."
+msgid ""
+"This is the sum of the \"Tax Rows\" shipping tax amount within your orders."
 msgstr ""
 
 #: includes/admin/reports/class-wc-report-taxes-by-code.php:154
@@ -10146,8 +10159,8 @@ msgstr ""
 
 #: includes/admin/settings/class-wc-settings-checkout.php:89
 msgid ""
-"When applying multiple coupons, apply the first coupon to the full price "
-"and the second coupon to the discounted price and so on."
+"When applying multiple coupons, apply the first coupon to the full price and "
+"the second coupon to the discounted price and so on."
 msgstr ""
 
 #: includes/admin/settings/class-wc-settings-checkout.php:96
@@ -10262,8 +10275,8 @@ msgstr ""
 
 #: includes/admin/settings/class-wc-settings-checkout.php:230
 msgid ""
-"Installed gateways are listed below. Drag and drop gateways to control "
-"their display order on the frontend."
+"Installed gateways are listed below. Drag and drop gateways to control their "
+"display order on the frontend."
 msgstr ""
 
 #: includes/admin/settings/class-wc-settings-checkout.php:282
@@ -10358,8 +10371,8 @@ msgstr ""
 
 #: includes/admin/settings/class-wc-settings-emails.php:121
 msgid ""
-"The base colour for WooCommerce email templates. Default "
-"<code>#557da1</code>."
+"The base colour for WooCommerce email templates. Default <code>#557da1</code>"
+"."
 msgstr ""
 
 #: includes/admin/settings/class-wc-settings-emails.php:131
@@ -10368,8 +10381,8 @@ msgstr ""
 
 #: includes/admin/settings/class-wc-settings-emails.php:132
 msgid ""
-"The background colour for WooCommerce email templates. Default "
-"<code>#f5f5f5</code>."
+"The background colour for WooCommerce email templates. Default <code>"
+"#f5f5f5</code>."
 msgstr ""
 
 #: includes/admin/settings/class-wc-settings-emails.php:142
@@ -10422,8 +10435,8 @@ msgstr ""
 
 #: includes/admin/settings/class-wc-settings-general.php:54
 msgid ""
-"This is the base location for your business. Tax rates will be based on "
-"this country."
+"This is the base location for your business. Tax rates will be based on this "
+"country."
 msgstr ""
 
 #: includes/admin/settings/class-wc-settings-general.php:63
@@ -10586,8 +10599,7 @@ msgstr ""
 
 #: includes/admin/settings/class-wc-settings-products.php:93
 msgid ""
-"The base page can also be used in your <a href=\"%s\">product "
-"permalinks</a>."
+"The base page can also be used in your <a href=\"%s\">product permalinks</a>."
 msgstr ""
 
 #: includes/admin/settings/class-wc-settings-products.php:99
@@ -10680,8 +10692,8 @@ msgstr ""
 
 #: includes/admin/settings/class-wc-settings-products.php:178
 msgid ""
-"These settings affect the display and dimensions of images in your catalog "
-"- the display on the front-end will still be affected by CSS styles. After "
+"These settings affect the display and dimensions of images in your catalog - "
+"the display on the front-end will still be affected by CSS styles. After "
 "changing these settings you may need to <a href=\"%s\">regenerate your "
 "thumbnails</a>."
 msgstr ""
@@ -10707,7 +10719,8 @@ msgid "Product Thumbnails"
 msgstr ""
 
 #: includes/admin/settings/class-wc-settings-products.php:212
-msgid "This size is usually used for the gallery of images on the product page."
+msgid ""
+"This size is usually used for the gallery of images on the product page."
 msgstr ""
 
 #: includes/admin/settings/class-wc-settings-products.php:225
@@ -10805,9 +10818,9 @@ msgstr ""
 #: includes/admin/settings/class-wc-settings-products.php:370
 msgid ""
 "Forcing downloads will keep URLs hidden, but some servers may serve large "
-"files unreliably. If supported, <code>X-Accel-Redirect</code>/ "
-"<code>X-Sendfile</code> can be used to serve downloads instead (server "
-"requires <code>mod_xsendfile</code>)."
+"files unreliably. If supported, <code>X-Accel-Redirect</code>/ <code>X-"
+"Sendfile</code> can be used to serve downloads instead (server requires "
+"<code>mod_xsendfile</code>)."
 msgstr ""
 
 #: includes/admin/settings/class-wc-settings-products.php:378
@@ -11142,8 +11155,8 @@ msgstr ""
 
 #: includes/admin/settings/views/html-admin-page-shipping-zones.php:15
 msgid ""
-"Drag and drop to re-order your custom zones. This is the order in which "
-"they will be matched against the customer address."
+"Drag and drop to re-order your custom zones. This is the order in which they "
+"will be matched against the customer address."
 msgstr ""
 
 #: includes/admin/settings/views/html-admin-page-shipping-zones.php:16
@@ -11294,9 +11307,9 @@ msgstr ""
 
 #: includes/admin/settings/views/html-settings-tax.php:21
 msgid ""
-"Postcode for this rule. Semi-colon (;) separate multiple values. Leave "
-"blank to apply to all areas. Wildcards (*) and ranges for numeric postcodes "
-"(e.g. 12345...12350) can also be used."
+"Postcode for this rule. Semi-colon (;) separate multiple values. Leave blank "
+"to apply to all areas. Wildcards (*) and ranges for numeric postcodes (e.g. "
+"12345...12350) can also be used."
 msgstr ""
 
 #: includes/admin/settings/views/html-settings-tax.php:22
@@ -11550,8 +11563,8 @@ msgstr ""
 
 #: includes/admin/settings/views/settings-tax.php:16
 msgid ""
-"This option is important as it will affect how you input prices. Changing "
-"it will not update existing products."
+"This option is important as it will affect how you input prices. Changing it "
+"will not update existing products."
 msgstr ""
 
 #: includes/admin/settings/views/settings-tax.php:18
@@ -11640,8 +11653,8 @@ msgstr ""
 msgid ""
 "Define text to show after your product prices. This could be, for example, "
 "\"inc. Vat\" to explain your pricing. You can also have prices substituted "
-"here using one of the following: {price_including_tax}, "
-"{price_excluding_tax}."
+"here using one of the following: {price_including_tax}, {price_excluding_tax}"
+"."
 msgstr ""
 
 #: includes/admin/settings/views/settings-tax.php:101
@@ -11673,8 +11686,8 @@ msgstr ""
 #: includes/admin/views/html-admin-page-addons.php:58
 msgid ""
 "Storefront is an intuitive, flexible and %sfree%s WordPress theme offering "
-"deep integration with WooCommerce and many of the most popular "
-"customer-facing extensions."
+"deep integration with WooCommerce and many of the most popular customer-"
+"facing extensions."
 msgstr ""
 
 #: includes/admin/views/html-admin-page-addons.php:60
@@ -11745,14 +11758,14 @@ msgstr ""
 
 #: includes/admin/views/html-admin-page-status-report.php:46
 msgid ""
-"Several WooCommerce extensions can write logs which makes debugging "
-"problems easier. The directory must be writable for this to happen."
+"Several WooCommerce extensions can write logs which makes debugging problems "
+"easier. The directory must be writable for this to happen."
 msgstr ""
 
 #: includes/admin/views/html-admin-page-status-report.php:51
 msgid ""
-"To allow logging, make <code>%s</code> writable or define a custom "
-"<code>WC_LOG_DIR</code>."
+"To allow logging, make <code>%s</code> writable or define a custom <code>"
+"WC_LOG_DIR</code>."
 msgstr ""
 
 #: includes/admin/views/html-admin-page-status-report.php:56
@@ -11867,8 +11880,8 @@ msgstr ""
 
 #: includes/admin/views/html-admin-page-status-report.php:155
 msgid ""
-"The maximum number of variables your server can use for a single function "
-"to avoid overloads."
+"The maximum number of variables your server can use for a single function to "
+"avoid overloads."
 msgstr ""
 
 #: includes/admin/views/html-admin-page-status-report.php:159
@@ -11888,9 +11901,9 @@ msgid ""
 "Suhosin is an advanced protection system for PHP installations. It was "
 "designed to protect your servers on the one hand against a number of well "
 "known problems in PHP applications and on the other hand against potential "
-"unknown vulnerabilities within these applications or the PHP core itself. "
-"If enabled on your server, Suhosin may need to be configured to increase "
-"its data submission limits."
+"unknown vulnerabilities within these applications or the PHP core itself. If "
+"enabled on your server, Suhosin may need to be configured to increase its "
+"data submission limits."
 msgstr ""
 
 #: includes/admin/views/html-admin-page-status-report.php:185
@@ -11914,7 +11927,8 @@ msgid "Max Upload Size"
 msgstr ""
 
 #: includes/admin/views/html-admin-page-status-report.php:202
-msgid "The largest filesize that can be uploaded to your WordPress installation."
+msgid ""
+"The largest filesize that can be uploaded to your WordPress installation."
 msgstr ""
 
 #: includes/admin/views/html-admin-page-status-report.php:206
@@ -11957,7 +11971,8 @@ msgid ""
 msgstr ""
 
 #: includes/admin/views/html-admin-page-status-report.php:244
-msgid "HTML/Multipart emails use DOMDocument to generate inline CSS in templates."
+msgid ""
+"HTML/Multipart emails use DOMDocument to generate inline CSS in templates."
 msgstr ""
 
 #: includes/admin/views/html-admin-page-status-report.php:250
@@ -12060,9 +12075,9 @@ msgstr ""
 #: includes/admin/views/html-admin-page-status-report.php:390
 msgid ""
 "The MaxMind GeoIP Database does not exist - Geolocation will not function. "
-"You can download and install it manually from %1$s to the path: %2$s. "
-"Scroll down to \\\"Downloads\\\" and download the \\\"Binary / gzip\\\" "
-"file next to \\\"GeoLite Country\\\""
+"You can download and install it manually from %1$s to the path: %2$s. Scroll "
+"down to \\\"Downloads\\\" and download the \\\"Binary / gzip\\\" file next "
+"to \\\"GeoLite Country\\\""
 msgstr ""
 
 #: includes/admin/views/html-admin-page-status-report.php:404
@@ -12133,8 +12148,8 @@ msgstr ""
 
 #: includes/admin/views/html-admin-page-status-report.php:553
 msgid ""
-"The URL of your WooCommerce shop's “My Account” Page (along with the page "
-"ID)."
+"The URL of your WooCommerce shop's “My Account” Page (along with the page ID)"
+"."
 msgstr ""
 
 #: includes/admin/views/html-admin-page-status-report.php:574
@@ -12306,8 +12321,8 @@ msgstr ""
 
 #: includes/admin/views/html-admin-page-status-tools.php:45
 msgid ""
-"Enable Template Debug Mode to bypass all theme and plugin template "
-"overrides for logged-in administrators. Used for debugging purposes."
+"Enable Template Debug Mode to bypass all theme and plugin template overrides "
+"for logged-in administrators. Used for debugging purposes."
 msgstr ""
 
 #: includes/admin/views/html-admin-page-status-tools.php:50
@@ -12316,8 +12331,8 @@ msgstr ""
 
 #: includes/admin/views/html-admin-page-status-tools.php:56
 msgid ""
-"This tool will remove all WooCommerce, Product and Order data when using "
-"the \"Delete\" link on the plugins screen. It will also remove any "
+"This tool will remove all WooCommerce, Product and Order data when using the "
+"\"Delete\" link on the plugins screen. It will also remove any "
 "setting/option prepended with \"woocommerce_\" so may also affect installed "
 "WooCommerce Extensions."
 msgstr ""
@@ -12453,8 +12468,8 @@ msgstr ""
 
 #: includes/admin/views/html-notice-install.php:12
 msgid ""
-"<strong>Welcome to WooCommerce</strong> &#8211; You&lsquo;re almost ready "
-"to start selling :)"
+"<strong>Welcome to WooCommerce</strong> &#8211; You&lsquo;re almost ready to "
+"start selling :)"
 msgstr ""
 
 #: includes/admin/views/html-notice-install.php:13
@@ -12471,15 +12486,14 @@ msgstr ""
 
 #: includes/admin/views/html-notice-legacy-shipping.php:13
 msgid ""
-"a group of regions that can be assigned different shipping methods and "
-"rates."
+"a group of regions that can be assigned different shipping methods and rates."
 msgstr ""
 
 #: includes/admin/views/html-notice-legacy-shipping.php:14
 msgid ""
 "Legacy shipping methods (Flat Rate, International Flat Rate, Local Pickup "
-"and Delivery, and Free Shipping) are deprecated but will continue to work "
-"as normal for now. <b><em>They will be removed in future versions of "
+"and Delivery, and Free Shipping) are deprecated but will continue to work as "
+"normal for now. <b><em>They will be removed in future versions of "
 "WooCommerce</em></b>. We recommend disabling these and setting up new rates "
 "within shipping zones as soon as possible."
 msgstr ""
@@ -12500,8 +12514,8 @@ msgstr ""
 
 #: includes/admin/views/html-notice-no-shipping-methods.php:14
 msgid ""
-"Shipping is currently enabled, but you haven't added any shipping methods "
-"to your shipping zones."
+"Shipping is currently enabled, but you haven't added any shipping methods to "
+"your shipping zones."
 msgstr ""
 
 #: includes/admin/views/html-notice-no-shipping-methods.php:15
@@ -12512,10 +12526,9 @@ msgstr ""
 
 #: includes/admin/views/html-notice-simplify-commerce.php:21
 msgid ""
-"<strong>The Simplify Commerce payment gateway is deprecated</strong> "
-"&#8211; Please install our new free Simplify Commerce plugin from "
-"WordPress.org. Simplify Commerce will be removed from WooCommerce core in a "
-"future update."
+"<strong>The Simplify Commerce payment gateway is deprecated</strong> &#8211; "
+"Please install our new free Simplify Commerce plugin from WordPress.org. "
+"Simplify Commerce will be removed from WooCommerce core in a future update."
 msgstr ""
 
 #: includes/admin/views/html-notice-simplify-commerce.php:23
@@ -12747,7 +12760,8 @@ msgid "Define if should not apply when have sale items."
 msgstr ""
 
 #: includes/api/class-wc-rest-coupons-controller.php:539
-msgid "Minimum order amount that needs to be in the cart before coupon applies."
+msgid ""
+"Minimum order amount that needs to be in the cart before coupon applies."
 msgstr ""
 
 #: includes/api/class-wc-rest-coupons-controller.php:544
@@ -13039,8 +13053,8 @@ msgstr ""
 
 #: includes/api/class-wc-rest-order-notes-controller.php:397
 msgid ""
-"Shows/define if the note is only for reference or for the customer (the "
-"user will be notified)."
+"Shows/define if the note is only for reference or for the customer (the user "
+"will be notified)."
 msgstr ""
 
 #: includes/api/class-wc-rest-order-refunds-controller.php:118
@@ -13382,8 +13396,8 @@ msgstr ""
 
 #: includes/api/class-wc-rest-orders-controller.php:1373
 msgid ""
-"Define if the order is paid. It will set the status to processing and "
-"reduce stock items."
+"Define if the order is paid. It will set the status to processing and reduce "
+"stock items."
 msgstr ""
 
 #: includes/api/class-wc-rest-orders-controller.php:1379
@@ -13795,7 +13809,8 @@ msgid "Amount of times the product can be downloaded."
 msgstr ""
 
 #: includes/api/class-wc-rest-products-controller.php:2028
-msgid "Number of days that the customer has up to be able to download the product."
+msgid ""
+"Number of days that the customer has up to be able to download the product."
 msgstr ""
 
 #: includes/api/class-wc-rest-products-controller.php:2034
@@ -14047,8 +14062,7 @@ msgstr ""
 
 #: includes/api/class-wc-rest-products-controller.php:2493
 msgid ""
-"Number of days that the customer has up to be able to download the "
-"variation."
+"Number of days that the customer has up to be able to download the variation."
 msgstr ""
 
 #: includes/api/class-wc-rest-products-controller.php:2511
@@ -14185,12 +14199,12 @@ msgstr ""
 
 #: includes/api/class-wc-rest-report-sales-controller.php:380
 msgid ""
-"Return sales for a specific start date, the date need to be in the %s "
-"format."
+"Return sales for a specific start date, the date need to be in the %s format."
 msgstr ""
 
 #: includes/api/class-wc-rest-report-sales-controller.php:387
-msgid "Return sales for a specific end date, the date need to be in the %s format."
+msgid ""
+"Return sales for a specific end date, the date need to be in the %s format."
 msgstr ""
 
 #: includes/api/class-wc-rest-report-top-sellers-controller.php:164
@@ -14279,8 +14293,8 @@ msgstr ""
 
 #: includes/api/class-wc-rest-webhook-deliveries.php:230
 msgid ""
-"A friendly summary of the response including the HTTP response code, "
-"message, and body."
+"A friendly summary of the response including the HTTP response code, message,"
+" and body."
 msgstr ""
 
 #: includes/api/class-wc-rest-webhook-deliveries.php:236
@@ -14322,7 +14336,8 @@ msgstr ""
 
 #: includes/api/class-wc-rest-webhooks-controller.php:141
 #: includes/api/class-wc-rest-webhooks-controller.php:236
-msgid "Webhook delivery URL must be a valid URL starting with http:// or https://."
+msgid ""
+"Webhook delivery URL must be a valid URL starting with http:// or https://."
 msgstr ""
 
 #: includes/api/class-wc-rest-webhooks-controller.php:227
@@ -14360,8 +14375,8 @@ msgstr ""
 #: includes/api/class-wc-rest-webhooks-controller.php:519
 msgid ""
 "Secret key used to generate a hash of the delivered webhook and provided in "
-"the request headers. This will default is a MD5 hash from the current "
-"user's ID|username if not provided."
+"the request headers. This will default is a MD5 hash from the current user's "
+"ID|username if not provided."
 msgstr ""
 
 #: includes/api/class-wc-rest-webhooks-controller.php:524
@@ -15198,7 +15213,8 @@ msgstr ""
 #: includes/api/legacy/v2/class-wc-api-webhooks.php:279
 #: includes/api/legacy/v3/class-wc-api-webhooks.php:188
 #: includes/api/legacy/v3/class-wc-api-webhooks.php:279
-msgid "Webhook delivery URL must be a valid URL starting with http:// or https://"
+msgid ""
+"Webhook delivery URL must be a valid URL starting with http:// or https://"
 msgstr ""
 
 #: includes/api/legacy/v2/class-wc-api-webhooks.php:203
@@ -15457,8 +15473,8 @@ msgstr ""
 
 #: includes/class-wc-ajax.php:2400
 msgid ""
-"API Key generated successfully. Make sure to copy your new API keys now. "
-"You won't be able to see it again!"
+"API Key generated successfully. Make sure to copy your new API keys now. You "
+"won't be able to see it again!"
 msgstr ""
 
 #: includes/class-wc-ajax.php:2613
@@ -15611,8 +15627,8 @@ msgstr ""
 
 #: includes/class-wc-cart.php:532
 msgid ""
-"Sorry, we do not have enough \"%s\" in stock to fulfill your order right "
-"now. Please try again in %d minutes or edit your cart and try again. We "
+"Sorry, we do not have enough \"%s\" in stock to fulfill your order right now."
+" Please try again in %d minutes or edit your cart and try again. We "
 "apologise for any inconvenience caused."
 msgstr ""
 
@@ -15673,8 +15689,8 @@ msgstr ""
 
 #: includes/class-wc-checkout.php:369
 msgid ""
-"Sorry, your session has expired. <a href=\"%s\" "
-"class=\"wc-backward\">Return to shop</a>"
+"Sorry, your session has expired. <a href=\"%s\" class=\"wc-backward\">Return "
+"to shop</a>"
 msgstr ""
 
 #: includes/class-wc-checkout.php:473 includes/class-wc-form-handler.php:114
@@ -16090,7 +16106,8 @@ msgid ""
 msgstr ""
 
 #: includes/class-wc-form-handler.php:782
-msgid "Please choose the quantity of items you wish to add to your cart&hellip;"
+msgid ""
+"Please choose the quantity of items you wish to add to your cart&hellip;"
 msgstr ""
 
 #: includes/class-wc-form-handler.php:790
@@ -16159,12 +16176,14 @@ msgid ""
 msgstr ""
 
 #: includes/class-wc-frontend-scripts.php:324
-msgid "Please select some product options before adding this product to your cart."
+msgid ""
+"Please select some product options before adding this product to your cart."
 msgstr ""
 
 #: includes/class-wc-frontend-scripts.php:325
 #: templates/single-product/add-to-cart/variation.php:31
-msgid "Sorry, this product is unavailable. Please choose a different combination."
+msgid ""
+"Sorry, this product is unavailable. Please choose a different combination."
 msgstr ""
 
 #: includes/class-wc-frontend-scripts.php:349
@@ -16174,8 +16193,8 @@ msgstr ""
 #: includes/class-wc-frontend-scripts.php:350
 msgid ""
 "The password should be at least seven characters long. To make it stronger, "
-"use upper and lower case letters, numbers and symbols like ! \" ? $ % ^ "
-"&amp; )."
+"use upper and lower case letters, numbers and symbols like ! \" ? $ % ^ &amp;"
+" )."
 msgstr ""
 
 #: includes/class-wc-install.php:256
@@ -16572,7 +16591,8 @@ msgid "Coupons list"
 msgstr ""
 
 #: includes/class-wc-post-types.php:378
-msgid "This is where you can add new coupons that customers can use in your store."
+msgid ""
+"This is where you can add new coupons that customers can use in your store."
 msgstr ""
 
 #: includes/class-wc-post-types.php:402
@@ -16752,8 +16772,8 @@ msgstr ""
 
 #: includes/emails/class-wc-email-cancelled-order.php:28
 msgid ""
-"Cancelled order emails are sent to chosen recipient(s) when orders have "
-"been marked cancelled (if they were previously processing or on-hold)."
+"Cancelled order emails are sent to chosen recipient(s) when orders have been "
+"marked cancelled (if they were previously processing or on-hold)."
 msgstr ""
 
 #: includes/emails/class-wc-email-cancelled-order.php:30
@@ -16788,8 +16808,8 @@ msgstr ""
 #: includes/emails/class-wc-email-failed-order.php:111
 #: includes/emails/class-wc-email-new-order.php:116
 msgid ""
-"Enter recipients (comma separated) for this email. Defaults to "
-"<code>%s</code>."
+"Enter recipients (comma separated) for this email. Defaults to <code>"
+"%s</code>."
 msgstr ""
 
 #: includes/emails/class-wc-email-cancelled-order.php:117
@@ -16803,8 +16823,8 @@ msgstr ""
 #: includes/emails/class-wc-email-failed-order.php:119
 #: includes/emails/class-wc-email-new-order.php:124
 msgid ""
-"This controls the email subject line. Leave blank to use the default "
-"subject: <code>%s</code>."
+"This controls the email subject line. Leave blank to use the default subject:"
+" <code>%s</code>."
 msgstr ""
 
 #: includes/emails/class-wc-email-cancelled-order.php:125
@@ -16866,7 +16886,8 @@ msgid "Your order is complete - download your files"
 msgstr ""
 
 #: includes/emails/class-wc-email-customer-completed-order.php:43
-msgid "Your {site_title} order from {order_date} is complete - download your files"
+msgid ""
+"Your {site_title} order from {order_date} is complete - download your files"
 msgstr ""
 
 #: includes/emails/class-wc-email-customer-completed-order.php:147
@@ -17146,8 +17167,8 @@ msgstr ""
 
 #: includes/emails/class-wc-email.php:766
 msgid ""
-"This template has been overridden by your theme and can be found in: "
-"<code>%s</code>."
+"This template has been overridden by your theme and can be found in: <code>"
+"%s</code>."
 msgstr ""
 
 #: includes/emails/class-wc-email.php:779
@@ -17181,7 +17202,8 @@ msgid "BACS"
 msgstr ""
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:32
-msgid "Allows payments by BACS, more commonly known as direct bank/wire transfer."
+msgid ""
+"Allows payments by BACS, more commonly known as direct bank/wire transfer."
 msgstr ""
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:75
@@ -17377,8 +17399,8 @@ msgstr ""
 
 #: includes/gateways/cod/class-wc-gateway-cod.php:95
 msgid ""
-"If COD is only available for certain methods, set it up here. Leave blank "
-"to enable for all methods."
+"If COD is only available for certain methods, set it up here. Leave blank to "
+"enable for all methods."
 msgstr ""
 
 #: includes/gateways/cod/class-wc-gateway-cod.php:99
@@ -17408,9 +17430,9 @@ msgstr ""
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:37
 msgid ""
-"PayPal standard sends customers to PayPal to enter their payment "
-"information. PayPal IPN requires fsockopen/cURL support to update order "
-"statuses after payment. Check the %ssystem status%s page for more details."
+"PayPal standard sends customers to PayPal to enter their payment information."
+" PayPal IPN requires fsockopen/cURL support to update order statuses after "
+"payment. Check the %ssystem status%s page for more details."
 msgstr ""
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:95
@@ -17446,7 +17468,8 @@ msgid "Validation error: PayPal amounts do not match (gross %s)."
 msgstr ""
 
 #: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:164
-msgid "Validation error: PayPal IPN response from a different email address (%s)."
+msgid ""
+"Validation error: PayPal IPN response from a different email address (%s)."
 msgstr ""
 
 #: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:187
@@ -17476,7 +17499,8 @@ msgid "Payment for order %s reversed"
 msgstr ""
 
 #: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:273
-msgid "Order #%s has been marked on-hold due to a reversal - PayPal reason code: %s"
+msgid ""
+"Order #%s has been marked on-hold due to a reversal - PayPal reason code: %s"
 msgstr ""
 
 #: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:284
@@ -17513,8 +17537,8 @@ msgstr ""
 
 #: includes/gateways/paypal/includes/settings-paypal.php:29
 msgid ""
-"Pay via PayPal; you can pay with your credit card if you don't have a "
-"PayPal account."
+"Pay via PayPal; you can pay with your credit card if you don't have a PayPal "
+"account."
 msgstr ""
 
 #: includes/gateways/paypal/includes/settings-paypal.php:32
@@ -17537,8 +17561,8 @@ msgstr ""
 
 #: includes/gateways/paypal/includes/settings-paypal.php:44
 msgid ""
-"PayPal sandbox can be used to test payments. Sign up for a developer "
-"account <a href=\"%s\">here</a>."
+"PayPal sandbox can be used to test payments. Sign up for a developer account "
+"<a href=\"%s\">here</a>."
 msgstr ""
 
 #: includes/gateways/paypal/includes/settings-paypal.php:47
@@ -17563,9 +17587,9 @@ msgstr ""
 
 #: includes/gateways/paypal/includes/settings-paypal.php:61
 msgid ""
-"If your main PayPal email differs from the PayPal email entered above, "
-"input your main receiver email for your PayPal account here. This is used "
-"to validate IPN requests."
+"If your main PayPal email differs from the PayPal email entered above, input "
+"your main receiver email for your PayPal account here. This is used to "
+"validate IPN requests."
 msgstr ""
 
 #: includes/gateways/paypal/includes/settings-paypal.php:67
@@ -17574,8 +17598,8 @@ msgstr ""
 
 #: includes/gateways/paypal/includes/settings-paypal.php:69
 msgid ""
-"Optionally enable \"Payment Data Transfer\" (Profile > Profile and Settings "
-"> My Selling Tools > Website Preferences) and then copy your identity token "
+"Optionally enable \"Payment Data Transfer\" (Profile > Profile and Settings >"
+" My Selling Tools > Website Preferences) and then copy your identity token "
 "here. This will allow payments to be verified without the need for PayPal "
 "IPN."
 msgstr ""
@@ -17678,8 +17702,8 @@ msgstr ""
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:418
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:593
 msgid ""
-"Please make sure your card details have been entered correctly and that "
-"your browser supports JavaScript."
+"Please make sure your card details have been entered correctly and that your "
+"browser supports JavaScript."
 msgstr ""
 
 #: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:97
@@ -17698,7 +17722,8 @@ msgstr ""
 #: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:182
 #: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:292
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:493
-msgid "Sorry, the minimum allowed order total is 0.50 to use this payment method."
+msgid ""
+"Sorry, the minimum allowed order total is 0.50 to use this payment method."
 msgstr ""
 
 #: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:298
@@ -17757,8 +17782,8 @@ msgstr ""
 
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:25
 msgid ""
-"Take payments via Simplify Commerce - uses simplify.js to create card "
-"tokens and the Simplify Commerce SDK. Requires SSL when sandbox is disabled."
+"Take payments via Simplify Commerce - uses simplify.js to create card tokens "
+"and the Simplify Commerce SDK. Requires SSL when sandbox is disabled."
 msgstr ""
 
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:26
@@ -17798,10 +17823,10 @@ msgstr ""
 
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:157
 msgid ""
-"Simplify Commerce is enabled, but the <a href=\"%s\">force SSL option</a> "
-"is disabled; your checkout may not be secure! Please enable SSL and ensure "
-"your server has a valid SSL certificate - Simplify Commerce will only work "
-"in sandbox mode."
+"Simplify Commerce is enabled, but the <a href=\"%s\">force SSL option</a> is "
+"disabled; your checkout may not be secure! Please enable SSL and ensure your "
+"server has a valid SSL certificate - Simplify Commerce will only work in "
+"sandbox mode."
 msgstr ""
 
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:189
@@ -17952,8 +17977,8 @@ msgstr ""
 
 #: includes/shipping/flat-rate/includes/settings-flat-rate.php:7
 msgid ""
-"Use <code>[qty]</code> for the number of items, <br/><code>[cost]</code> "
-"for the total cost of items, and <code>[fee percent=\"10\" min_fee=\"20\" "
+"Use <code>[qty]</code> for the number of items, <br/><code>[cost]</code> for "
+"the total cost of items, and <code>[fee percent=\"10\" min_fee=\"20\" "
 "max_fee=\"\"]</code> for percentage based fees."
 msgstr ""
 
@@ -17970,7 +17995,8 @@ msgstr ""
 
 #: includes/shipping/flat-rate/includes/settings-flat-rate.php:47
 #: includes/shipping/legacy-flat-rate/includes/settings-flat-rate.php:74
-msgid "These costs can optionally be added based on the %sproduct shipping class%s."
+msgid ""
+"These costs can optionally be added based on the %sproduct shipping class%s."
 msgstr ""
 
 #: includes/shipping/flat-rate/includes/settings-flat-rate.php:54
@@ -18041,8 +18067,7 @@ msgstr ""
 #: includes/shipping/free-shipping/class-wc-shipping-free-shipping.php:97
 #: includes/shipping/legacy-free-shipping/class-wc-shipping-legacy-free-shipping.php:133
 msgid ""
-"Users will need to spend this amount to get free shipping (if enabled "
-"above)."
+"Users will need to spend this amount to get free shipping (if enabled above)."
 msgstr ""
 
 #: includes/shipping/legacy-flat-rate/class-wc-shipping-legacy-flat-rate.php:26
@@ -18193,8 +18218,8 @@ msgstr ""
 
 #: includes/shipping/legacy-local-delivery/class-wc-shipping-legacy-local-delivery.php:139
 msgid ""
-"What fee do you want to charge for local delivery, disregarded if you "
-"choose free. Leave blank to disable."
+"What fee do you want to charge for local delivery, disregarded if you choose "
+"free. Leave blank to disable."
 msgstr ""
 
 #: includes/shipping/legacy-local-delivery/class-wc-shipping-legacy-local-delivery.php:145
@@ -18350,8 +18375,7 @@ msgstr ""
 
 #: includes/vendor/class-wp-rest-controller.php:288
 msgid ""
-"Scope under which the request is made; determines fields present in "
-"response."
+"Scope under which the request is made; determines fields present in response."
 msgstr ""
 
 #: includes/vendor/wp-rest-functions.php:169
@@ -19163,8 +19187,8 @@ msgstr ""
 
 #: includes/wc-deprecated-functions.php:708
 msgid ""
-"The shop_order_status taxonomy is no more in WooCommerce 2.2! You should "
-"use the new WooCommerce post_status instead, <a href=\"%s\">read more...</a>"
+"The shop_order_status taxonomy is no more in WooCommerce 2.2! You should use "
+"the new WooCommerce post_status instead, <a href=\"%s\">read more...</a>"
 msgstr ""
 
 #: includes/wc-deprecated-functions.php:712
@@ -19312,7 +19336,8 @@ msgid "Please enter a valid account username."
 msgstr ""
 
 #: includes/wc-user-functions.php:65
-msgid "An account is already registered with that username. Please choose another."
+msgid ""
+"An account is already registered with that username. Please choose another."
 msgstr ""
 
 #: includes/wc-user-functions.php:85
@@ -19510,8 +19535,8 @@ msgstr ""
 msgid "WooCommerce Product Tags"
 msgstr ""
 
-#: includes/widgets/class-wc-widget-product-tag-cloud.php:86
 #. translators: %s for product quantity, e.g. 1 product and 2 products
+#: includes/widgets/class-wc-widget-product-tag-cloud.php:86
 msgid "%s product"
 msgid_plural "%s products"
 msgstr[0] ""
@@ -19616,7 +19641,8 @@ msgid "%s would like to connect to your store"
 msgstr ""
 
 #: templates/auth/form-grant-access.php:29
-msgid "This will give \"%s\" <strong>%s</strong> access which will allow it to:"
+msgid ""
+"This will give \"%s\" <strong>%s</strong> access which will allow it to:"
 msgstr ""
 
 #: templates/auth/form-grant-access.php:39
@@ -19804,9 +19830,8 @@ msgstr ""
 #: templates/checkout/payment.php:42
 msgid ""
 "Since your browser does not support JavaScript, or it is disabled, please "
-"ensure you click the <em>Update Totals</em> button before placing your "
-"order. You may be charged more than the amount stated above if you fail to "
-"do so."
+"ensure you click the <em>Update Totals</em> button before placing your order."
+" You may be charged more than the amount stated above if you fail to do so."
 msgstr ""
 
 #: templates/checkout/payment.php:43
@@ -19847,8 +19872,8 @@ msgstr ""
 #: templates/emails/customer-completed-order.php:28
 #: templates/emails/plain/customer-completed-order.php:25
 msgid ""
-"Hi there. Your recent order on %s has been completed. Your order details "
-"are shown below for your reference:"
+"Hi there. Your recent order on %s has been completed. Your order details are "
+"shown below for your reference:"
 msgstr ""
 
 #: templates/emails/customer-invoice.php:29
@@ -19864,7 +19889,8 @@ msgstr ""
 
 #: templates/emails/customer-new-account.php:27
 #: templates/emails/plain/customer-new-account.php:25
-msgid "Thanks for creating an account on %s. Your username is <strong>%s</strong>"
+msgid ""
+"Thanks for creating an account on %s. Your username is <strong>%s</strong>"
 msgstr ""
 
 #: templates/emails/customer-new-account.php:31
@@ -19891,8 +19917,8 @@ msgstr ""
 #: templates/emails/customer-on-hold-order.php:28
 #: templates/emails/plain/customer-on-hold-order.php:25
 msgid ""
-"Your order is on-hold until we confirm payment has been received. Your "
-"order details are shown below for your reference:"
+"Your order is on-hold until we confirm payment has been received. Your order "
+"details are shown below for your reference:"
 msgstr ""
 
 #: templates/emails/customer-processing-order.php:28
@@ -20035,9 +20061,9 @@ msgstr ""
 
 #: templates/myaccount/form-add-payment-method.php:59
 msgid ""
-"Sorry, it seems that there are no payment methods which support adding a "
-"new payment method. Please contact us if you require assistance or wish to "
-"make alternate arrangements."
+"Sorry, it seems that there are no payment methods which support adding a new "
+"payment method. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
 msgstr ""
 
 #: templates/myaccount/form-edit-account.php:45
@@ -20265,7 +20291,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: templates/single-product/related.php:51
-msgid "Related Products"
+msgid "Sản phẩm liên quan"
 msgstr ""
 
 #: templates/single-product/review-meta.php:28
@@ -20347,7 +20373,8 @@ msgid "Your Review"
 msgstr ""
 
 #: templates/single-product-reviews.php:107
-msgid "Only logged in customers who have purchased this product may leave a review."
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
 msgstr ""
 
 #. Plugin URI of the plugin/theme

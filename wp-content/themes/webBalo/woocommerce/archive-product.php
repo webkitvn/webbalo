@@ -42,7 +42,7 @@ get_header( 'shop' ); ?>
 		</div>
 		<?php endif; ?>
 	<?php endif; ?>
-	<div class="container-fluid main-content-wrapper">
+	<div class="container main-content-wrapper">
 		<div class="row">
 			<div class="col-xs-12 col-md-12">
 		<?php

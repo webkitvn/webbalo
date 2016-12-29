@@ -27,7 +27,7 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	return;
 }
 ?>
-<div <?php post_class('col-sx-12 col-md-3'); ?>>
+<div <?php post_class('col-xs-6 col-sm-4 col-md-3'); ?>>
 	<div class="webbalo-product-item">
 	<?php
 	/**

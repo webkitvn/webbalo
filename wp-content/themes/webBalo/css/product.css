@@ -2,10 +2,23 @@
     margin: 10px 0;
     background: #FFF;
     padding-bottom: 20px;
+    transition: all .3s ease;
     position: relative;
 }
 .products .webbalo-product-item.product-slide{
     margin: 20px 15px;
+    overflow: hidden;
+    transition: all .3s ease;
+}
+.products .webbalo-product-item:hover{
+    background: #444444;
+    color: #FFF;
+}
+.products .webbalo-product-item:hover a,.products .webbalo-product-item:hover .item-name h3{
+    color: #FFF;
+}
+.products .webbalo-product-item:hover .webbalo-btn{
+    border-color: #FFF;
 }
 .products .webbalo-product-item img{
     width: 100%;
@@ -16,17 +29,19 @@
     margin-top: 10px;
 }
 .products .webbalo-product-item .item-name h3{
-    font-family: "Cafeta", sans-serif;
     color: #111;
     margin: 0;
     padding: 5px 15px;
-    font-size: 1.5em;
+    font-size: 1.3em;
+    font-weight: bold;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+    transition: all .3s ease;
 }
 .products .webbalo-product-item.product-slide .item-name h3{
-    font-size: 1.5em;
+    font-size: 1.3em;
+    font-weight: bold;
 }
 .price{
     width: 100%;
@@ -73,7 +88,7 @@
     border: 1px solid #111;
 }
 .products .webbalo-product-item.product-slide .webbalo-btn{
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 .products .webbalo-product-item .added_to_cart{
     display: block;
@@ -146,19 +161,31 @@
     margin-top: 10px;
     overflow: hidden;
 }
-.single-product .thumbnails.columns-3{
-    flex-wrap: nowrap;
+.single-product .thumbnails{
+    position: relative;
     margin: 10px 0 0 -10px;
 }
-.single-product .thumbnails.columns-3 a{
+.single-product .thumbnails a{
     display: inline-block;
-    flex-grow: 1;
     margin:10px 0 0 10px;
 }
 .single-product .thumbnails.columns-3 a img{
-    width: 171px;
+    width: 100%;
     height: auto;
-    float: left;
+}
+.single-product .thumbnails .slick-arrow{
+    position: absolute;
+    top: 50%;
+    background: rgb(17, 17, 17);
+    color: #FFF;
+    border: 0;
+    z-index: 500;
+}
+.slick-arrow.slick-prev{
+    left: 10px;
+}
+.slick-arrow.slick-next{
+    right: 0;
 }
 .related.products{
     margin: 20px 0;
@@ -166,7 +193,8 @@
 }
 .related.products h2{
     font-family: "Cafeta", sans-serif;
-    font-size: 3em;
+    font-size: 2em;
+    text-transform: uppercase;
 }
 .single-product .related.products img{
     width: 100%;
@@ -176,11 +204,11 @@
     margin: 0;
 }
 .single-product .product_title{
-    font-family: "Cafeta";
+    font-weight: bold;
     font-size: 3em;
 }
 .single-product .related.products .webbalo-product-item .webbalo-btn{
-    font-size: 1.6em;
+    font-size: 1.3em;
 }
 form.cart{
     overflow: hidden;
@@ -396,7 +424,6 @@ form.cart{
     display: table;
 }
 .woocommerce .order_details li {
-    float: left;
     margin-right: 2em;
     text-transform: uppercase;
     font-size: .715em;
@@ -406,6 +433,21 @@ form.cart{
     margin-left: 0;
     padding-left: 0;
     list-style-type: none;
+}
+.wc-bacs-bank-details{
+    margin: 0 !important;
+    padding: 0;
+}
+.thankyou-order h3{
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.woocommerce .order_details.wc-bacs-bank-details li{
+    font-size: 1em;
+    background: #FFF;
+    margin: 0;
+    padding: 10px 20px;
 }
 .woocommerce .order_details li strong {
     display: block;
@@ -490,15 +532,35 @@ form.cart{
     border-radius: 0;
     z-index: 599 !important;
 }
-.prdctfltr_woocommerce.pf_sidebar .prdctfltr_woocommerce_filter_submit, .prdctfltr_woocommerce.pf_sidebar_right .prdctfltr_woocommerce_filter_submit, .prdctfltr_woocommerce.pf_sidebar_css .prdctfltr_woocommerce_filter_submit, .prdctfltr_woocommerce.pf_sidebar_css_right .prdctfltr_woocommerce_filter_submit{
+.wc-bacs-bank-details-heading{
+    font-size: 1em;
+    font-weight: bold;
+}
+.bacs_account{
+    max-width: 100%;
+    width: 300px;
+    margin: 10px 10px 30px 0;
+    float: left;
+}
+.bacs_account .bank_name{
+    display: block;
     background: #111;
     color: #FFF;
-    font-family: "Cafeta", sans-serif;
-    padding: 10px 20px;
-    margin: 0 0 20px;
-    display: block;
-    overflow: hidden;
-    clear: both;
-    text-transform: uppercase;
+    margin: 0;
+    padding: 5px;
     text-align: center;
+}
+.bacs_account li{
+    border-right: 0 !important;
+    text-align: center;
+}
+.bacs_account li strong{
+    font-size: 2em !important;
+}
+.wc_payment_methods{
+    list-style: none;
+    padding: 0;
+}
+.wc_payment_methods li input, .wc_payment_methods li label{
+    display: inline;
 }

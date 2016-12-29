@@ -1,0 +1,98 @@
+@media (max-width: 768px){
+    #header{
+        overflow: hidden;
+    }
+    #header .top-menu{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #header .top-menu li{
+        display: inline-block !important;
+        margin: 0 10px;
+    }
+    #menu{
+        top: 100px !important;
+    }
+    #header .menu-striger{
+        position: absolute;
+        top: -45px;
+        right: 10px;
+    }
+    .products .webbalo-product-item .webbalo-btn{
+        font-size: 1.4em !important;
+    }
+    .single-product .webbalo-btn{
+        width: 100%;
+        padding: 15px;
+        border: 3px solid #111;
+    }
+    .cart_totals .checkout-button{
+        width: 100%;
+        text-align: center;
+    }
+    .single-product .thumbnails.columns-3 a img{
+        width: 100% !important;
+        height: auto;
+        float: left;
+    }
+    footer h3{
+        margin: 30px 0 10px;
+    }
+    .cart-process{
+        flex-wrap: wrap;
+    }
+    .cart-process div{
+        margin: 5px 15px;
+        display: none;
+    }
+    .cart-process div.active{
+        display: block;
+    }
+    .modal-dialog{
+        width: auto;
+        max-width: 100%;
+    }
+    .modal-dialog .modal-content{
+        padding: 0 15px;
+    }
+    .products .webbalo-product-item .webbalo-btn{
+        width: calc(100% - 30px) !important;
+        background: #111;
+        color: #FFF;
+        font-size: 1.3em !important;
+        padding: 5px;
+    }
+    .products .webbalo-product-item .webbalo-btn.add_to_cart_button{
+        display: none;
+    }
+    .products .webbalo-product-item{
+        margin-bottom: 20px !important;
+    }
+    .promo span{
+        display: block;
+        margin: 0;
+    }
+    .promo span:after{
+        content: "" !important;
+        border: none;
+        background: none;
+    }
+}
+@media (max-width: 480px){
+    .products .webbalo-product-item .price{
+        font-size: 1em !important;
+    }
+    .single-product .thumbnails.columns-3{
+        flex-flow: row wrap;
+        position: relative;
+        display: flex;
+        margin: 0 !important;
+        flex-wrap: wrap !important;
+    }
+    .single-product .thumbnails.columns-3 a{
+        margin: 0 !important;
+        box-sizing: border-box;
+        flex-basis: 50%;
+        padding: 3px;
+    }
+}

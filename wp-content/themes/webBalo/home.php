@@ -1,11 +1,11 @@
 <?php get_header() ?>
 	<section class="row-item" id="slider">
-		<div class="container-fluid">
+		<div class="container">
 			<?php echo do_shortcode('[rev_slider alias="main-slider"]'); ?>
 		</div>
 	</section>
 	<section id="blocks" class="row-item">
-		<div class="container-fluid">
+		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
 					<h2 class="big-title"><?php _e('Sản phẩm', 'webbalo') ?></h2>
@@ -42,7 +42,7 @@
 		</div>
 	</section>
 	<section class="row-item" id="cacou">
-		<div class="container-fluid">
+		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
 					<h2 class="big-title"><?php _e("Sản phẩm mới", "webbalo") ?></h2>
@@ -54,7 +54,22 @@
 						<?php
 							$loop = new WP_Query(array(
 								'post_type' => 'product',
-								'posts_per_page' => 12
+								'posts_per_page' => 12,
+								'meta_query'     => array(
+						        'relation' => 'OR',
+						        array( // Simple products type
+						            'key'           => '_sale_price',
+						            'value'         => 0,
+						            'compare'       => '=',
+						            'type'          => 'numeric'
+						        ),
+						        array( // Variable products type
+						            'key'           => '_min_variation_sale_price',
+						            'value'         => 0,
+						            'compare'       => '=',
+						            'type'          => 'numeric'
+						        )
+						    )
 							))
 						?>
 						<?php if ( $loop->have_posts() ) {

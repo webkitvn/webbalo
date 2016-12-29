@@ -1,0 +1,127 @@
+@media print {
+	* { background:transparent !important; color:black !important; box-shadow:none !important; text-shadow:none !important; }
+	a, a:visited { text-decoration:underline; }
+	a[href]:after { content:" (" attr(href) ")"; }
+	abbr[title]:after { content:" (" attr(title) ")"; }
+	.ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content:""; }
+	pre, blockquote { border:.5mm solid #999; page-break-inside:avoid; }
+	thead { display:table-header-group; }
+	tr, img { page-break-inside:avoid; }
+	img { max-width:100% !important; }
+	@page { margin:1cm 1cm 1cm 2cm; }
+	p, h2, h3 { orphans:3; widows:3; }
+	h2, h3 { page-break-after:avoid; }
+}
+
+body {
+	font-family:"Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	line-height:.45cm;
+	font-size:.38cm;
+}
+h1,h2,h3,h4,h5,h6 {
+	margin-bottom:.5em;
+	font-weight:normal;
+}
+h1 {
+	font-size:.8cm;
+	line-height:.8cm;
+}
+h2 {
+	font-size:.6cm;
+	line-height:.6cm;
+}
+h3 {
+	font-size:.42cm;
+	line-height:.42cm;
+	margin:.75em 0 .25em;
+	padding:0;
+}
+hr {
+	display:block;
+	margin-top:1.5em;
+	border-style:solid;
+	border-width:1px;
+}
+del {
+	font-size:.5cm;
+}
+ins {
+	text-decoration:none;
+}
+.wcspp-go-print {
+	display:none;
+}
+
+.wcspp-logo {
+	float:left;
+	height:1.1cm;
+	width:auto;
+	margin-right:0.25cm;
+}
+.wcspp-product-title {
+	display:block;
+	font-size:.6cm;
+	line-height:.6cm;
+	margin-bottom:.15cm;
+}
+
+.wcspp-title {
+	max-width:65%;
+}
+
+.wcspp-price {
+	font-size:.8cm;
+	line-height:.8cm;
+	float:right;
+	white-space:nowrap;
+}
+	.wcspp-price ins span {
+		margin-left:.25em;
+	}
+	.wcspp-price ins span:first-child {
+		margin-right:.25em;
+	}
+
+.wcspp-main-image {
+	float:left;
+	width:50%;
+	margin-bottom:1em;
+}
+	.wcspp-main-image img {
+		width:100%;
+		height:auto;
+	}
+
+.wcspp-short-description {
+	margin-left:53%;
+	margin-bottom:1em;
+}
+
+.wcspp-images {
+	margin-bottom:2em;
+}
+
+.wcspp-images:before {
+	content:'';
+	display:table;
+	clear:both;
+}
+.wcspp-images img {
+	width:25%;
+	height:auto;
+	margin-bottom:0;
+}
+.wcspp-url {
+	font-size:11pt;
+	vertical-align:middle;
+}
+.wcspp-meta {
+	margin-bottom:2em;
+}
+.wcspp-add {
+	margin:1.5em 0 0;
+}
+.wcspp-content img {
+	display:block;
+	margin:1em 0;
+}

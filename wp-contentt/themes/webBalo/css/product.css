@@ -1,0 +1,546 @@
+.products .webbalo-product-item{
+    margin: 10px 0;
+    background: #FFF;
+    padding-bottom: 20px;
+    position: relative;
+}
+.products .webbalo-product-item.product-slide{
+    margin: 20px 15px;
+    overflow: hidden;
+}
+.products .webbalo-product-item img{
+    width: 100%;
+    height: auto;
+}
+.products .webbalo-product-item .item-name{
+    overflow: hidden;
+    margin-top: 10px;
+}
+.products .webbalo-product-item .item-name h3{
+    color: #111;
+    margin: 0;
+    padding: 5px 15px;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.products .webbalo-product-item.product-slide .item-name h3{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.price{
+    width: 100%;
+    display: block;
+    font-family: "Cafeta", sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+.products .webbalo-product-item .price{
+    width: 100%;
+    display: block;
+    padding: 0 15px;
+    font-family: "Cafeta", sans-serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+.products .webbalo-product-item.product-slide .price{
+    font-size: 1.4em;
+}
+.price del, .price ins,.price .amount{
+    text-transform: uppercase;
+    color: #fa3e3e;
+}
+.price ins{
+    text-decoration: none;
+}
+.price del, .price del span{
+    color: #6D6E71 !important;
+    font-size: .9em !important;
+}
+.products .webbalo-product-item .price ins{
+    float: right;
+    text-decoration: none;
+}
+.products .webbalo-product-item .webbalo-btn{
+    margin: 0 15px;
+    width: calc(100%/2 - 30px);
+    font-size: 1.2em;
+    text-align: center;
+    border: 1px solid #111;
+}
+.products .webbalo-product-item.product-slide .webbalo-btn{
+    font-size: 1.2em;
+}
+.products .webbalo-product-item .added_to_cart{
+    display: block;
+    margin: 10px 15px 0;
+    border: 2px solid #FFF;
+    color: #FFF;
+    font-family: "Cafeta";
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    padding: 10px 20px;
+    top: 0;
+    background: #e61111;
+}
+.products .webbalo-product-item .added_to_cart:hover{
+    background: #111;
+    color: #FFF;
+}
+.woocommerce-pagination{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.woocommerce-pagination ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.woocommerce-pagination ul li{
+    display: inline;
+}
+.woocommerce-pagination ul li span, .woocommerce-pagination ul li a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #111;
+    line-height: 25px;
+    text-align: center;
+    color: #111;
+    font-family: "Cafeta", sans-serif;
+}
+.woocommerce-pagination ul li span.current,.woocommerce-pagination ul li a:hover{
+    background: #111;
+    color: #FFF;
+    text-decoration: none;
+}
+.result-ordering{
+    overflow: hidden;
+    font-size: 1.2em;
+}
+.result-ordering .woocommerce-result-count{
+    float: left;
+    margin: 20px 20px 0px;
+    color: #848484;
+}
+.result-ordering .woocommerce-ordering{
+    float: right;
+    margin: 20px 20px 0px;
+    color: #848484;
+}
+.result-ordering .woocommerce-ordering select{
+    padding: 5px;
+}
+.single-product .product-img .woocommerce-main-image img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.single-product .thumbnails{
+    margin-top: 10px;
+    overflow: hidden;
+}
+.single-product .thumbnails{
+    position: relative;
+    margin: 10px 0 0 -10px;
+}
+.single-product .thumbnails a{
+    display: inline-block;
+    margin:10px 0 0 10px;
+}
+.single-product .thumbnails.columns-3 a img{
+    width: 100%;
+    height: auto;
+}
+.single-product .thumbnails .slick-arrow{
+    position: absolute;
+    top: 50%;
+    background: rgb(17, 17, 17);
+    color: #FFF;
+    border: 0;
+    z-index: 500;
+}
+.slick-arrow.slick-prev{
+    left: 10px;
+}
+.slick-arrow.slick-next{
+    right: 0;
+}
+.related.products{
+    margin: 20px 0;
+    overflow: hidden;
+}
+.related.products h2{
+    font-family: "Cafeta", sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+.single-product .related.products img{
+    width: 100%;
+    height: auto;
+}
+.single-product .related.products .webbalo-product-item{
+    margin: 0;
+}
+.single-product .product_title{
+    font-weight: bold;
+    font-size: 3em;
+}
+.single-product .related.products .webbalo-product-item .webbalo-btn{
+    font-size: 1.3em;
+}
+form.cart{
+    overflow: hidden;
+}
+.single-product input[type=number].qty{
+    display: none;
+}
+.single-product .posted_in, .single-product .tagged_as{
+    display: block;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #9c9c9c;
+}
+.single-product .posted_in a, .single-product .tagged_as a{
+    color: #111;
+}
+.woocommerce-message{
+    color: #d25555;
+    font-family: "Cafeta", sans-serif;
+    font-size: 1.5em;
+    display: inline-block;
+    border: 2px solid #111;
+    padding: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    background: #fff;
+}
+.woocommerce-message a{
+    color: #111;
+}
+.woocommerce-message a:hover{
+    text-decoration: underline;
+}
+.product-img{
+    position: relative;
+    margin-top: 20px;
+}
+.product-img .onsale{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #f90505;
+    display: block;
+    padding: 3px 20px;
+    font-size: 2em;
+    font-family: "Cafeta", sans-serif;
+    color: #FFF;
+    text-transform: uppercase;
+}
+.woocommerce-tabs{
+    display: block;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.woocommerce-tabs .tabs{
+    list-style: none;
+    margin: 0;
+    padding:0;
+    text-align: center;
+    border-bottom: 2px solid #111;
+}
+.woocommerce-tabs .tabs li{
+    display: inline-block;
+    text-align: center;
+}
+.woocommerce-tabs .tabs li a{
+    display: block;
+    background: #7d7d7d;
+    color: #FFF;
+    font-family: "Cafeta", sans-serif;
+    padding: 10px 20px;
+    font-size: 1.5em;
+}
+.woocommerce-tabs .tabs .active a, .woocommerce-tabs .tabs li a:hover{
+    background: #111;
+}
+.woocommerce-tabs .panel{
+    padding: 15px;
+    border: 2px solid #111;
+    border-radius: 0;
+}
+.woocommerce-tabs .panel h2{
+    font-family: "Cafeta";
+    text-transform: uppercase;
+    margin-top: 0;
+}
+.woocommerce p.stars a {
+    position: relative;
+    height: 1em;
+    width: 1em;
+    text-indent: -999em;
+    display: inline-block;
+    text-decoration: none;
+}
+.woocommerce p.stars a:before {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    font-family: WooCommerce;
+    text-indent: 0;
+}
+.woocommerce p.stars a:before, .woocommerce p.stars a:hover~a:before {
+    content: "\e021";
+}
+.woocommerce p.stars.selected a.active:before, .woocommerce p.stars:hover a:before {
+    content: "\e020";
+}
+.woocommerce p.stars.selected a:not(.active):before {
+    content: "\e020";
+}
+.woocommerce p.stars.selected a.active~a:before {
+    content: "\e021";
+}
+#commentform{
+    overflow: hidden;
+}
+#commentform p{
+    overflow: hidden;
+    clear: both;
+}
+#commentform label{
+    display: block;
+}
+#commentform textarea{
+    width: 100%;
+    padding: 15px;
+}
+#commentform input[type=submit]{
+    background: #111;
+    border: 2px solid #111;
+    font-family: "Cafeta", sans-serif;
+    font-size: 2em;
+    float: right;
+    padding: 5px 20px;
+    color: #FFF;
+    transition: all .3s ease-out;
+}
+#commentform input[type=submit]:hover{
+    background: #FFF;
+    color: #111;
+    text-decoration: none;
+}
+.single-product #reviews #comments ol.commentlist {
+    margin: 0;
+    width: 100%;
+    background: 0 0;
+    list-style: none;
+    padding: 0;
+}
+.single-product #reviews #comments ol.commentlist li {
+    padding: 0;
+    margin: 0 0 20px;
+    position: relative;
+    background: 0;
+    border: 0;
+}
+.single-product #reviews #comments ol.commentlist li img.avatar {
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 3px;
+    width: 100px;
+    height: auto;
+    background: #ebe9eb;
+    border: 1px solid #e4e1e3;
+    margin: 0;
+    box-shadow: none;
+}
+.single-product #reviews #comments ol.commentlist li .comment-text {
+    margin: 0 0 0 120px;
+    border: 1px solid #e4e1e3;
+    border-radius: 4px;
+    padding: 1em 1em 0;
+}
+.single-product #review_form #respond {
+    position: static;
+    margin: 0;
+    width: auto;
+    padding: 0;
+    background: 0 0;
+    border: 0;
+}
+.single-product #reviews h3 {
+    margin: 0;
+}
+.single-product #review_form #respond p {
+    margin: 0 0 10px;
+    overflow: hidden;
+}
+.single-product #review_form #respond textarea {
+    box-sizing: border-box;
+    width: 100%;
+    height: 70px;
+}
+.single-product #review_form #respond .form-submit input {
+    left: auto;
+    float: right;
+}
+.cate-banner img{
+    width: 100%;
+    height: auto;
+}
+.woocommerce .order_details {
+    margin: 0 0 1.5em;
+    list-style: none;
+}
+.woocommerce .order_details:after, .woocommerce .order_details:before {
+    content: " ";
+    display: table;
+}
+.woocommerce .order_details li {
+    margin-right: 2em;
+    text-transform: uppercase;
+    font-size: .715em;
+    line-height: 1;
+    border-right: 1px dashed #d3ced2;
+    padding-right: 2em;
+    margin-left: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+.wc-bacs-bank-details{
+    margin: 0 !important;
+    padding: 0;
+}
+.thankyou-order h3{
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.woocommerce .order_details.wc-bacs-bank-details li{
+    font-size: 1em;
+    background: #FFF;
+    margin: 0;
+    padding: 10px 20px;
+}
+.woocommerce .order_details li strong {
+    display: block;
+    font-size: 1.4em;
+    text-transform: none;
+    line-height: 1.5;
+}
+.thankyou-order .order-details h2{
+    font-family: "Cafeta", sans-serif;
+    font-size: 3em;
+    border-bottom: 2px solid #111;
+    margin-top: 0;
+}
+.thankyou-order .order-details table{
+    border: 1px solid #DDD;
+    vertical-align: middle !important;
+}
+.thankyou-order .order-details table thead{
+    background: #111;
+    color: #FFF;
+    border: 1px solid #111;
+}
+.thankyou-order .order-details table .amount{
+    font-family: "Cafeta", sans-serif;
+    font-size: 1.5em;
+}
+.thankyou-order .order-details table tfoot tr:last-child .amount{
+    color: #de0b0b;
+}
+.thankyou-order .order-details .product-name a{
+    color: #111;
+    font-family: "Cafeta", sans-serif;
+    font-size: 1.5em;
+}
+.customer-details{
+    border: 1px solid #333;
+    margin-top: 40px;
+}
+.customer-details header{
+    background: #333;
+    padding: 5px 20px;
+    color: #FFF;
+    font-family: "Cafeta", sans-serif;
+}
+.customer-details header h2, .customer-details header h3{
+    margin: 0;
+}
+.customer-details address{
+    padding: 20px;
+}
+#yith-ajaxsearchform{
+    margin: 20px 0 0px;
+}
+#yith-ajaxsearchform .screen-reader-text{
+    display: none;
+}
+#yith-ajaxsearchform input[type=search]{
+    width: calc(100% - 100px);
+    border: 1px solid #DDD;
+    padding: 10px;
+    border-radius: 0;
+    font-size: 1em;
+    float: left;
+}
+#yith-ajaxsearchform input[type=search]:focus{
+    outline: none;
+}
+#yith-ajaxsearchform input[type=submit]{
+    width: 100px;
+    float: left;
+    height: 45px;
+    background: #111;
+    border: 0;
+    font-family: "Cafeta", sans-serif;
+    color: #FFF;
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.autocomplete-suggestions{
+    top: 70px;
+    border-radius: 0;
+    z-index: 599 !important;
+}
+.wc-bacs-bank-details-heading{
+    font-size: 1em;
+    font-weight: bold;
+}
+.bacs_account{
+    max-width: 100%;
+    width: 300px;
+    margin: 10px 10px 0 0;
+    float: left;
+}
+.bacs_account .bank_name{
+    display: block;
+    background: #111;
+    color: #FFF;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
+.bacs_account li{
+    border-right: 0 !important;
+    text-align: center;
+}
+.bacs_account li strong{
+    font-size: 2em !important;
+}
